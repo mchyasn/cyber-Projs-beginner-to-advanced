@@ -1,4 +1,3 @@
-
 # Internal Network Recon Project
 
 This beginner-level cybersecurity project simulates internal network reconnaissance using **Nmap** inside a virtual lab (Kali Linux + Windows 11). Each step includes commands, screenshots, and output files for full documentation.
@@ -6,7 +5,7 @@ This beginner-level cybersecurity project simulates internal network reconnaissa
 
 ##  Step-by-Step
 
-### ✅ Step 1: Get Your IP Address (Kali Linux)
+###  Step 1: Get Your IP Address (Kali Linux)
 
 Command:
 ```bash
@@ -16,21 +15,20 @@ ip a
  Screenshot:  
 ![IP Address](screenshots/ip.a.png)
 
----
 
-### ✅ Step 2: Create Output Directory
+###  Step 2: Create Output Directory
 
 Command:
 ```bash
 mkdir -p ~/Desktop/scans
 ```
 
-📸 Screenshot:  
+ Screenshot:  
 ![Create Output Directory](screenshots/Create-Output-Directory.png)
 
----
 
-### ✅ Step 3: Ping Sweep (Detect Live Hosts)
+
+###  Step 3: Ping Sweep (Detect Live Hosts)
 
 Command:
 ```bash
@@ -41,9 +39,9 @@ nmap -sn 192.168.44.0/24 -oN ~/Desktop/scans/ping-scan.txt
  Screenshot:  
 ![Ping Sweep](screenshots/ping-sweep.png)
 
----
 
-### ✅ Step 4: Full Port Scan on Target
+
+###  Step 4: Full Port Scan on Target
 
 Command:
 ```bash
@@ -52,9 +50,8 @@ nmap --privileged -p- 192.168.44.130 -oN ~/Desktop/scans/port-scan.txt
 
  [port-scan.txt](scans/port-scan.txt)
 
----
 
-### ✅ Step 5: Quick TCP SYN Scan
+###  Step 5: Quick TCP SYN Scan
 
 Command:
 ```bash
@@ -65,9 +62,9 @@ nmap -sS 192.168.44.130 -oN ~/Desktop/scans/quick-scan.txt
  Screenshot:  
 ![Quick Scan](screenshots/quick-scan.png)
 
----
 
-### ✅ Step 6: Final Service + OS Detection Scan
+
+### Step 6: Final Service + OS Detection Scan
 
 Command:
 ```bash
@@ -78,9 +75,9 @@ nmap -sS -sV -O 192.168.44.130 -oN ~/Desktop/scans/final-scan.txt
  Screenshot:  
 ![Full Detection](screenshots/full-detection.png)
 
----
 
-### ✅ Step 7: Enable Windows Firewall Rules
+
+###  Step 7: Enable Windows Firewall Rules
 
 Command (on Windows 11 VM, PowerShell):
 
@@ -93,9 +90,9 @@ New-NetFirewallRule -DisplayName "Allow RPC" -Direction Inbound -Protocol TCP -L
  Screenshot:  
 ![Firewall Rules](screenshots/firewall-rules.png)
 
----
 
-## ✅ Summary
+
+##  Summary
 
 | Step | Purpose |
 |------|---------|
@@ -107,7 +104,6 @@ New-NetFirewallRule -DisplayName "Allow RPC" -Direction Inbound -Protocol TCP -L
 | 6    | Detect services + OS |
 | 7    | Open necessary firewall ports in Windows |
 
----
 
 ##  Skills Practiced
 
