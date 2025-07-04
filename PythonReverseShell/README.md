@@ -15,12 +15,13 @@ This project demonstrates a **basic reverse shell in Python** between a **Window
 - Windows 11 = Victim (IP: `192.168.44.130`)
 - Ensure both are on the same virtual network.
 
-Screenshot:  
-`PythonReverseShell/screenshots/step0-network.png`
+
 
 ---
 
 ## Step 1: Create the Listener (Kali)
+
+![Step 0](screenshots/step0.png)
 
 Create a file named `listener.py` with the following content:
 
@@ -42,8 +43,7 @@ while True:
     print(result)
 ```
 
-Screenshot:  
-`PythonReverseShell/screenshots/step1-listener.png`
+![Step 1](screenshots/step1.png)
 
 ---
 
@@ -64,8 +64,7 @@ while True:
     s.send(output.encode())
 ```
 
-Screenshot:  
-`PythonReverseShell/screenshots/step2-shellcode.png`
+![Step 2](screenshots/step2.png)
 
 ---
 
@@ -73,8 +72,6 @@ Screenshot:
 
 Use any method (USB, shared folder, etc.). Open it with Python on Windows.
 
-Screenshot:  
-`PythonReverseShell/screenshots/step3-transfer.png`
 
 ---
 
@@ -86,8 +83,6 @@ On **Kali**, start the listener:
 python3 listener.py
 ```
 
-Screenshot:  
-`PythonReverseShell/screenshots/start-listener.png`
 
 ---
 
@@ -95,8 +90,7 @@ Screenshot:
 
 Double-click `reverse_shell.py` (or run via terminal if Python is installed).
 
-Screenshot:  
-`PythonReverseShell/screenshots/win11-execute.png`
+
 
 ---
 
@@ -104,8 +98,7 @@ Screenshot:
 
 If successful, you'll see a shell prompt in Kali. You can now send commands to the Windows machine.
 
-Screenshot:  
-`PythonReverseShell/screenshots/active-shell.png`
+![Step 3](screenshots/step3.png)
 
 ---
 
