@@ -1,6 +1,7 @@
 # Keylogger Basics – Beginner Cybersecurity Project
 
-This project demonstrates how to build a **simple Python keylogger** using `pynput`. It runs on **Kali Linux** in a **safe, virtualized lab environment** and captures keystrokes for educational purposes.
+This project demonstrates how to build a **simple Python keylogger** using `pynput`.  
+It runs on **Kali Linux** in a **safe, virtualized lab environment** and captures keystrokes for educational purposes.
 
 ⚠️ **Educational Use Only** – Do not use this on any system without explicit permission.
 
@@ -8,46 +9,47 @@ This project demonstrates how to build a **simple Python keylogger** using `pynp
 
 ## Step 0: Set Up Python Environment
 
-Kali restricts global package installs due to PEP 668.
-
-✅ **Solution: Use a Virtual Environment**
 ```bash
 sudo apt update
-sudo apt install python3-pip python3-venv
-python3 -m venv myenv
-source myenv/bin/activate
-pip install pynput
+sudo apt install python3-pip
+pip3 install pynput
 ```
 
 
-## Step 1: Set Up Python Virtual Environment
+![Install Error](screenshots/ERROR.png)
 
+
+
+You're seeing this error because Kali Linux has locked down system-wide Python package installations to prevent breaking your OS (per PEP 668).
+
+ Solution: Use a Virtual Environment (Safe & Recommended)
+ 
+Instead of installing pynput globally, create a virtual environment:
+
+# 1. Install venv (if not installed yet)
 ```bash
 sudo apt install python3-venv
+```
+# 2. Create a new virtual environment
+```
 python3 -m venv myenv
+```
+# 3. Activate the environment
+```
 source myenv/bin/activate
 ```
-
-📸 Screenshots:
-![Install venv](screenshots/install-venv.png)  
-![Activate venv](screenshots/activate-venv.png)
-
-
-
-## Step 2: Install pynput Package
-
-```bash
+# 4. Install pynput safely inside it
+```
 pip install pynput
 ```
-
-📸 Screenshot:  
-![Install pynput](screenshots/install-pynput.png)
+![Fix pip install error](screenshots/fix-error.png)
 
 
+DONE.....
 
-## Step 3: Write the Keylogger Script
+##  Step 3: Write the Keylogger Script
 
-Create a file named `keylogger.py` with the code below:
+Create a file named `keylogger.py` and paste the following code:
 
 ```python
 from pynput import keyboard
@@ -62,55 +64,47 @@ with keyboard.Listener(on_press=on_press) as listener:
     listener.join()
 ```
 
-📸 Screenshot:  
-![Keylogger Code](screenshots/nano keylogger.png)
+  Screenshot:  
+![Writing Keylogger in Nano](screenshots/nano%20keylogger.png)
 
 
 
-## Step 4: Run the Keylogger
+##Step 4: Run the Keylogger
+
+From the terminal (while still in the virtual environment), run:
 
 ```bash
 python3 keylogger.py
 ```
 
-📸 Screenshot:  
+Now type something to see the output in real time.
+
+ Screenshot:  
 ![Keylogger Output](screenshots/keypresses.png)
 
 
 
-## Step 5: Handle Errors (if any)
+## Step 5: Deactivate the Environment
 
-If you encountered environment or install issues, check:
-
-📸 Screenshots:  
-![Initial Error](screenshots/ERROR.png)  
-![Fix Error](screenshots/fix-error.png)
-
-
-
-## Step 6: Deactivate the Environment
+After testing, deactivate the virtual environment:
 
 ```bash
 deactivate
 ```
 
+---
 
-
-## What You Learned
+##  What You Learned
 
 - How to use Python virtual environments securely.
 - How to install and use `pynput` to capture keystrokes.
 - How keyloggers function at a basic level.
 
+---
 
+##  Notes
 
-## Notes
+- Run only in a controlled VM environment like **Kali Linux**.
+- Don’t use keyloggers on live or production systems.
 
-- Use only in safe, sandboxed environments (like Kali VM).
-- This keylogger logs to the console only.
-
-
-
-## Project Status
-
-**✅ Completed** – Extend with file logging, remote sending, or timestamping (only in safe lab conditions).
+ (educational use only).
