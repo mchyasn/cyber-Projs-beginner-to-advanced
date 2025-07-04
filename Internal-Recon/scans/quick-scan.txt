@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Thu Jul  3 18:34:18 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN /home/kali/Desktop/scans/quick-scan.txt 192.168.44.130
+Nmap scan report for 192.168.44.130
+Host is up (0.00069s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+MAC Address: 00:0C:29:5C:36:23 (VMware)
+
+# Nmap done at Thu Jul  3 18:34:23 2025 -- 1 IP address (1 host up) scanned in 4.67 seconds

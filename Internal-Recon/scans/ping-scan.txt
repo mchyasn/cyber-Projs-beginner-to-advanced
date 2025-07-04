@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Thu Jul  3 18:30:40 2025 as: /usr/lib/nmap/nmap --privileged -sn -oN /home/kali/Desktop/scans/ping-scan.txt 192.168.44.0/24
+Nmap scan report for 192.168.44.1
+Host is up (0.00016s latency).
+MAC Address: 00:50:56:C0:00:08 (VMware)
+Nmap scan report for 192.168.44.2
+Host is up (0.00014s latency).
+MAC Address: 00:50:56:ED:D0:FC (VMware)
+Nmap scan report for 192.168.44.130
+Host is up (0.00013s latency).
+MAC Address: 00:0C:29:5C:36:23 (VMware)
+Nmap scan report for 192.168.44.254
+Host is up (0.00033s latency).
+MAC Address: 00:50:56:E2:98:18 (VMware)
+Nmap scan report for 192.168.44.128
+Host is up.
+# Nmap done at Thu Jul  3 18:30:42 2025 -- 256 IP addresses (5 hosts up) scanned in 2.04 seconds
