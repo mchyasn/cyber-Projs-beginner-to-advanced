@@ -8,6 +8,9 @@ This project demonstrates how to build a simple **Port Scanner in Python** for i
 
 ## Step 1: Create Your Python Script
 
+![Step 0 Screenshot](screenshots/step0.png)
+
+
 Save the following code as `port_scanner.py`:
 
 ```python
@@ -27,8 +30,8 @@ for port in ports:
     s.close()
 ```
 
-Screenshot:  
-`screenshots/code-port-scanner.png`
+![Step 1](screenshots/step1.png)
+
 
 ---
 
@@ -44,8 +47,7 @@ python3 port_scanner.py
 
 Enter a target IP such as `192.168.1.1` or another local IP.
 
-Screenshot:  
-`screenshots/port-scan-run.png`
+
 
 ---
 
@@ -57,8 +59,8 @@ The output will list open ports based on the predefined list. This is useful for
 - Mapping internal systems
 - Practicing basic scanning logic
 
-Screenshot:  
-`screenshots/scan-results.png`
+![Step 2](screenshots/step2.png)
+
 
 ---
 
