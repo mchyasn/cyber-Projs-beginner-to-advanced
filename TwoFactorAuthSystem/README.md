@@ -13,24 +13,18 @@ It uses the `pyotp` and `qrcode` libraries to simulate a secure login flow with 
 
 ## Step-by-Step Instructions
 
-### Step 0: Create Project Folder
-
-```bash
-mkdir TwoFactorAuthSystem
-cd TwoFactorAuthSystem
-mkdir screenshots
-
 Step 1: Set Up Virtual Environment & Install Dependencies
-bash
-Copy
-Edit
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install pyotp qrcode[pil]
+```
+![2FA Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TwoFactorAuthSystem/screenshots/Screenshot_2025-07-05_12_53_25.png)
 
 Step 2: Create 2FA Python Script
 Create a file named twofactor.py with the following:
-
+![2FA Authentication](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TwoFactorAuthSystem/screenshots/Screenshot%202025-07-05%20095557.png)
+```
 import pyotp
 import qrcode
 import getpass
@@ -62,13 +56,17 @@ if totp.verify(code):
     print("✅ 2FA success. Access granted.")
 else:
     print("❌ Invalid 2FA code. Access denied.")
-
+```
 Step 3: Test the Tool
+```
 python3 twofactor.py
-
+```
 Scan the QR code in Google Authenticator.
 
 Enter credentials and the 6-digit code.
+
+![2FA Verification](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TwoFactorAuthSystem/screenshots/Screenshot%202025-07-05%20095651.png)
+![2FA Success](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TwoFactorAuthSystem/screenshots/Screenshot%202025-07-05%20095943.png)
 
 Notes
 This is a demo project, not production-ready.
