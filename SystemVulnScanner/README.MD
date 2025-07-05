@@ -1,36 +1,39 @@
-System Vulnerability Scanning with LinPEAS & Nmap
+System Vulnerability Scanning
+=============================
 
-Project Description:
-Use LinPEAS and Nmap to find vulnerabilities on a local or remote Linux system. This is useful for both local privilege escalation and remote enumeration.
+This project demonstrates how to scan a local or remote Linux system for vulnerabilities using two primary tools: LinPEAS for local enumeration and Nmap for remote scanning using NSE scripts.
 
-Project Structure:
-SystemVulnScanner/
-├── screenshots/
-│   ├── step0.png
-│   ├── step1.png
-│   └── step2.png
-├── linpeas.sh
-└── README.md
 
-Installation and Usage:
+Step 0: Create Project Folder
+-----------------------------
+Create the project folder and organize files:
 
-Step 0: Setup Project Folder
-mkdir SystemVulnScanner
-cd SystemVulnScanner
-mkdir screenshots
-Screenshot: screenshots/step0.png - Terminal showing folder creation.
+    mkdir SystemVulnScanner
+    cd SystemVulnScanner
+    mkdir screenshots
 
 Step 1: Local Enumeration with LinPEAS
-Download LinPEAS:
-wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
-chmod +x linpeas.sh
-Run LinPEAS on your Kali system or a test VM:
-./linpeas.sh
-Screenshot: screenshots/step1.png - Running linpeas.sh and showing colorful output.
-Save or export the results for review.
+--------------------------------------
+1. Download and give execute permission:
 
-Step 2: Remote Scan with Nmap Vulnerability Scripts
-Use Nmap's NSE scripts to check for known vulnerabilities:
-nmap -sV --script vuln 127.0.0.1
-You can replace 127.0.0.1 with another host on your network.
-Screenshot: screenshots/step2.png - Nmap output showing vulnerable or safe ports.
+    wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+    chmod +x linpeas.sh
+
+2. Run LinPEAS:
+
+    ./linpeas.sh
+![System Vulnerability Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SystemVulnScanner/sc/Screenshot%202025-07-05%20161915.png)
+
+
+3. Review the output for potential privilege escalation vectors, insecure configurations, and outdated software.
+![Vulnerability Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SystemVulnScanner/sc/Screenshot%202025-07-05%20162406.png)
+![System Scan Details](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SystemVulnScanner/sc/Screenshot%202025-07-05%20162428.png)
+Step 2: Remote Vulnerability Scanning with Nmap
+-----------------------------------------------
+Run an Nmap scan against the local or remote system:
+
+    nmap -sV --script vuln 127.0.0.1
+![Nmap Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SystemVulnScanner/sc/nmap00.png)
+
+This uses Nmap's vulnerability scripts to identify exposed services and known CVEs.
+
