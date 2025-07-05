@@ -1,4 +1,4 @@
-# TCP Port Scanner (Basic)
+#                                                                         TCP Port Scanner (Basic)
 
 ## Description
 
@@ -38,12 +38,12 @@ You should see only the default packages like pip and setuptools.
 Step 2: Create the Script
 
 Create a file:
-
+```bash
 nano tcp_port_scanner.py
+```
 Paste the following code:
 
-![Step 1](screenshots/step0.png)
-
+![Step 1 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/b5b4df744cc42bfa655c216f4f6d0c5cda3dff80/PythonTcpScanner/screenshots/step1.png)
 
 python
 
@@ -98,12 +98,14 @@ Example output:
 ![Step 2](screenshots/step2.png)
 
 
-[*] Scanning target: scanme.nmap.org
-[*] Scanning ports 1–1024...
+### [*] Scanning target: scanme.nmap.org.
 
-[OPEN]  Port 22
-[CLOSED] Port 23
+### [*] Scanning ports 1–1024...
+
+[OPEN]  Port 22.
+[CLOSED] Port 23.
 ...
+
 [✓] Scan completed in 0:00:09.350000
 
 Notes
