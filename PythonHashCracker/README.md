@@ -30,6 +30,7 @@ This project uses only built-in libraries (`hashlib`, `sys`, `os`). No installat
 ```
 pip list
 ```
+![Step 0 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/82e0b1336581a4b30b46ec85e9d7c9761c59359d/PythonHashCracker/screenshots/step0.png)
 
 ### Step 2: Create the Script
 
@@ -40,6 +41,8 @@ nano hash_cracker.py
 ```
 
 Paste this code:
+
+![Step 1 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonHashCracker/screenshots/step1.png)
 
 ```python
 import hashlib
@@ -106,6 +109,8 @@ python3 hash_cracker.py 21232f297a57a5a743894a0e4a801fc3 wordlist.txt md5
 ```
 
 Expected Output:
+
+![Step 2 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonHashCracker/screenshots/step2.png)
 
 ```
 [+] Password found: admin
