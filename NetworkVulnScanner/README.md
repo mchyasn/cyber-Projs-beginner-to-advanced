@@ -12,18 +12,6 @@ This project performs basic network vulnerability scanning using `nmap` to ident
 - `nmap` – Network Mapper for port scanning, service detection, and OS fingerprinting
 
 ---
-
-## 🧪 Step-by-Step
-
-### Step 0: Create Project Folder
-
-```bash
-mkdir NetworkVulnScanner
-cd NetworkVulnScanner
-```
-
-📸 Screenshot: `screenshots/step0.png`
-
 ---
 
 ### Step 1: Basic Port Scan (Top Ports)
@@ -34,7 +22,7 @@ nmap -Pn 192.168.1.1
 
 This scans common ports of your router or local device.
 
-📸 Screenshot: `screenshots/step1.png`
+![Network Vulnerability Scanner - Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step0.png)
 
 ---
 
@@ -46,7 +34,7 @@ nmap -sV --host-timeout 30s -Pn 192.168.1.1
 
 If service detection times out, note that in results.
 
-📸 Screenshot: `screenshots/step2.png`
+![Network Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step1.png)
 
 ---
 
@@ -58,22 +46,9 @@ sudo nmap -O -Pn 192.168.1.1
 
 Attempts to detect the operating system of the device.
 
-📸 Screenshot: `screenshots/step3.png`
+![Vulnerability Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step3.png)
 
 ---
-
-## Folder Structure
-
-```
-NetworkVulnScanner/
-├── screenshots/
-│   ├── step0.png
-│   ├── step1.png
-│   ├── step2.png
-│   └── step3.png
-├── README.md
-```
-
 ---
 
 ## Notes
@@ -82,9 +57,3 @@ NetworkVulnScanner/
   - `nmap --script vuln` for known vulnerabilities (safe scripts)
   - `nmap -sC` for default scripts
 - Consider exporting results to XML or HTML using `-oX` or `-oN`
-
----
-
-## License
-
-MIT – Free to use and adapt for ethical and educational purposes.
