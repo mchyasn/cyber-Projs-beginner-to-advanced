@@ -42,6 +42,7 @@ Paste this code:
 ![Step 2](screenshots/step2.png)
 
 python
+```bash
 
 import subprocess
 import platform
@@ -88,7 +89,9 @@ if __name__ == "__main__":
         print("Usage: python3 os_fingerprint.py <target_ip>")
         sys.exit(1)
 
+
     detect_os(sys.argv[1])
+```
 
 Step 3: Run the Tool
 
