@@ -24,7 +24,7 @@ source venv/bin/activate
 ```
 
 ### Step 1: Install Required Library
-
+![Phishing Simulation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_14_00.png)
 ```
 pip install flask
 ```
@@ -36,7 +36,7 @@ nano phishing_app.py
 ```
 
 Paste the following code:
-
+![Phishing Simulation Step](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_14_43.png)
 ```python
 from flask import Flask, request, render_template_string
 
@@ -73,31 +73,11 @@ python3 phishing_app.py
 
 Visit `http://localhost:8080` in your browser. Try entering test credentials — they will print to the terminal for demonstration.
 
-## Screenshots
+![Phishing Simulation Result](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_18_41.png)
 
-- step0.png – Project folder and virtual environment setup
-- step1.png – pip install flask
-- step2.png – Editing `phishing_app.py`
-- step3.png – Web browser showing the phishing login form
-
-## Folder Structure
-
-```
-PhishingSimulation/
-├── screenshots/
-│   ├── step0.png
-│   ├── step1.png
-│   ├── step2.png
-│   └── step3.png
-├── phishing_app.py
-└── README.md
-```
-
-## Disclaimer
+# Disclaimer
 
 **For educational and ethical use only.**  
 This is a local simulation meant for awareness training and responsible use in controlled environments.
 
-## License
 
-MIT – Free to use and modify.
