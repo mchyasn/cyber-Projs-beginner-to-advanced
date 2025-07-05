@@ -14,34 +14,35 @@ This Python script captures and displays live network packets using Scapy. It sh
 ## Usage
 
 ### Step 0: Set Up Project Folder
-
+```
 mkdir PythonSnifferTool
 cd PythonSnifferTool
 python3 -m venv venv
 source venv/bin/activate
-
+```
 shell
 
 ### Step 1: Install Requirements
-
+```
 pip install scapy
-
-shell
+```
+![Step 0 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonSnifferTool/screenshots/step0.png)
 
 ### Step 2: Create the Sniffer Script
 
 Create a file:
-
+```
 nano sniffer.py
-
+```
 python
 
 Paste the code:
 
-
+![Step 1 Screenshot](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonSnifferTool/screenshots/step1.png)
 
 
 ```python
+
 from scapy.all import sniff
 from scapy.layers.inet import IP, TCP, UDP, ICMP
 
@@ -66,15 +67,16 @@ def packet_callback(packet):
 if __name__ == "__main__":
     print("[*] Starting packet capture... Press Ctrl+C to stop.")
     sniff(prn=packet_callback, store=0)
+```
 
 Step 3: Run the Script (Requires Root)
 nginx
-
+```
 sudo python3 sniffer.py
-
+```
 You will see output like:
 
-csharp
+![Step 3](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonSnifferTool/screenshots/step3.png)
 
 
 [TCP] 192.168.1.2:443 → 192.168.1.5:49832
