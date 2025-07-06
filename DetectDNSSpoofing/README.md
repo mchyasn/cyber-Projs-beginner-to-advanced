@@ -25,7 +25,7 @@ sudo tcpdump -i eth0 port 53 -n
 
 This will start capturing all DNS request/response packets on your interface.
 
-Screenshot: `screenshots/step1.png`
+![DNS Spoofing Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/DetectDNSSpoofing/screenshots/2025-07-05_19-56.png)
 
 ## Step 3: Trigger DNS Requests
 
@@ -41,7 +41,7 @@ You should see matching packets appear in the tcpdump terminal.
 
 If you see inconsistent IPs for the same domain (e.g., github.com resolving to different IPs), it may suggest spoofing or DNS manipulation.
 
-Screenshot: `screenshots/step2.png`
+![DNS Spoofing Alert](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/DetectDNSSpoofing/screenshots/2025-07-05_19-57.png)
 
 ## Step 4: Save the Capture (Optional)
 
@@ -55,17 +55,6 @@ Then trigger your lookups again. Open the pcap file in Wireshark and filter with
 
 ```
 dns
-```
-
-## Deliverables
-
-```
-DetectDNSSpoofing/
-├── screenshots/
-│   ├── step1.png   # tcpdump listening
-│   └── step2.png   # DNS traffic shown
-├── dns_spoof_test.pcap  (optional)
-└── README.txt
 ```
 
 ## Summary
