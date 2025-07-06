@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Secure Web Alert",
+  "version": "1.0",
+  "description": "Warns the user when visiting a non-HTTPS website.",
+  "permissions": ["tabs", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+  "action": {
+    "default_title": "Secure Web Alert"
+  }
+}
