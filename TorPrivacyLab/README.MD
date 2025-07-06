@@ -21,7 +21,7 @@ Step-by-Step Guide:
 sudo apt update
 sudo apt install tor -y
 ```
-![Tor Network Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/sc/1.png)
+![Tor Network Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/screenshots/1.png)
 
 2. Start and Enable Tor
 -----------------------
@@ -34,7 +34,7 @@ sudo systemctl enable tor
 sudo systemctl status tor
 
 Expected output: "Active: active (running)"
-![Tor Connection Established](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/sc/2.png)
+![Tor Connection Established](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/screenshots/2.png)
 
 4. Install ProxyChains
 ----------------------
@@ -47,7 +47,7 @@ sudo nano /etc/proxychains4.conf
 Edit the bottom section to:
 [ProxyList]
 socks5  127.0.0.1 9050
-![Tor Privacy Verification](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/sc/5.png)
+![Tor Privacy Verification](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/screenshots/5.png)
 
 Uncomment this line near the top to avoid DNS leaks:
 proxy_dns
@@ -62,7 +62,7 @@ proxychains curl https://check.torproject.org
 
 Expected: HTML saying "Congratulations. This browser is configured to use Tor."
 
-![Tor Network Test](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/sc/3.png)
+![Tor Network Test](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/screenshots/3.png)
 
 b) wget through Tor:
 proxychains wget https://example.com
@@ -77,7 +77,7 @@ proxychains nmap -sT -Pn scanme.nmap.org
 -------------------------------------
 If "proxy_dns" is enabled, DNS requests will be routed through Tor.
 
-![Tor Anonymity Check](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/sc/4.png)
+![Tor Anonymity Check](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TorPrivacyLab/screenshots/4.png)
 Security Notes:
 ---------------
 - Never rely on Tor alone for OPSEC. Metadata leaks are still possible.

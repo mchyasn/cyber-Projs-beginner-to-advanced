@@ -24,7 +24,7 @@ source venv/bin/activate
 ```
 
 ### Step 1: Install Required Library
-![Phishing Simulation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_14_00.png)
+![Phishing Simulation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/screenshots/Screenshot_2025-07-04_22_14_00.png)
 ```
 pip install flask
 ```
@@ -36,7 +36,7 @@ nano phishing_app.py
 ```
 
 Paste the following code:
-![Phishing Simulation Step](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_14_43.png)
+![Phishing Simulation Step](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/screenshots/Screenshot_2025-07-04_22_14_43.png)
 ```python
 from flask import Flask, request, render_template_string
 
@@ -73,7 +73,7 @@ python3 phishing_app.py
 
 Visit `http://localhost:8080` in your browser. Try entering test credentials — they will print to the terminal for demonstration.
 
-![Phishing Simulation Result](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/sc/Screenshot_2025-07-04_22_18_41.png)
+![Phishing Simulation Result](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PhishingSimulation/screenshots/Screenshot_2025-07-04_22_18_41.png)
 
 # Disclaimer
 

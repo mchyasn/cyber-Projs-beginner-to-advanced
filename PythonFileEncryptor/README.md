@@ -27,7 +27,7 @@ source venv/bin/activate
 ```
 pip install cryptography
 ```
-![Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/sc/step0.png)
+![Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/screenshots/step0.png)
 
 ### Step 2: Create the Script
 
@@ -36,7 +36,7 @@ nano file_encryptor.py
 ```
 
 Paste the following code:
-![Step 1](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/sc/step1.png)
+![Step 1](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/screenshots/step1.png)
 ```python
 from cryptography.fernet import Fernet
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":
 ```
 
 ### Step 3: Encrypt/Decrypt a File
-![Step 2](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/sc/step2.png)
+![Step 2](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonFileEncryptor/screenshots/step2.png)
 ```
 echo "secret message" > myfile.txt
 python3 file_encryptor.py encrypt myfile.txt

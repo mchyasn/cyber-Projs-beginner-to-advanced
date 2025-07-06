@@ -28,7 +28,7 @@ openssl req -x509 -newkey rsa:2048 -nodes \
 -keyout certs/key.pem -out certs/cert.pem \
 -days 365 -subj "/CN=localhost"
 ```
-![TLS Web Server Configuration](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/sc/1.png)
+![TLS Web Server Configuration](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/screenshots/1.png)
 3. Create HTML Page to Serve
 ----------------------------
 ```
@@ -43,7 +43,7 @@ import http.server
 import ssl
 import os
 ```
-![TLS Certificate Verification](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/sc/11.png)
+![TLS Certificate Verification](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/screenshots/11.png)
 
 # Serve only the web folder
 ```
@@ -61,7 +61,7 @@ httpd.socket = context.wrap_socket(httpd.socket, server_side=True)
 print("HTTPS Server running on https://localhost:8443")
 httpd.serve_forever()
 ```
-![TLS Secure Connection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/sc/2.png)
+![TLS Secure Connection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/screenshots/2.png)
 
 5. Run the Secure Server
 ------------------------
@@ -71,7 +71,7 @@ python3 https_server.py
 
 Expected output:
 HTTPS Server running on https://localhost:8443
-![TLS Handshake Process](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/sc/3.png)
+![TLS Handshake Process](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/screenshots/3.png)
 
 6. Test with curl
 -----------------
@@ -84,7 +84,7 @@ Output:
 ```
 <h1>HTTPS is working!</h1>
 ```
-![TLS Implementation Complete](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/sc/final.png)
+![TLS Implementation Complete](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/TLSWebServer/screenshots/final.png)
 
 7. Test in Firefox Browser (Optional)
    

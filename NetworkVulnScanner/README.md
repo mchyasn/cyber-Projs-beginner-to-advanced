@@ -22,7 +22,7 @@ nmap -Pn 192.168.1.1
 
 This scans common ports of your router or local device.
 
-![Network Vulnerability Scanner - Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step0.png)
+![Network Vulnerability Scanner - Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/screenshots/step0.png)
 
 ---
 
@@ -34,7 +34,7 @@ nmap -sV --host-timeout 30s -Pn 192.168.1.1
 
 If service detection times out, note that in results.
 
-![Network Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step1.png)
+![Network Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/screenshots/step1.png)
 
 ---
 
@@ -46,7 +46,7 @@ sudo nmap -O -Pn 192.168.1.1
 
 Attempts to detect the operating system of the device.
 
-![Vulnerability Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/sc/step3.png)
+![Vulnerability Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/NetworkVulnScanner/screenshots/step3.png)
 
 ---
 ---

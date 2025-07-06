@@ -18,7 +18,7 @@ This project simulates a basic Wi-Fi security audit on your own home network. It
 
 iwconfig
 
-![WiFi Security Audit - Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/sc/step0.png)
+![WiFi Security Audit - Step 0](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/screenshots/step0.png)
 
 ### Step 1: List Nearby Wi-Fi Networks
 
@@ -28,7 +28,7 @@ nmcli dev wifi list
 
 Check your router's encryption type (WPA2, WPA3 is good. WEP or OPEN is weak).
 
-![WiFi Security Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/sc/step1.png)
+![WiFi Security Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/screenshots/step1.png)
 
 ---
 
@@ -42,7 +42,7 @@ sudo arp-scan --interface=wlan0 --localnet
 
 Shows all connected devices (IP + MAC).
 
-![WiFi Security Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/sc/step3.png)
+![WiFi Security Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/screenshots/step3.png)
 
 ---
 
@@ -51,7 +51,7 @@ Shows all connected devices (IP + MAC).
 ```bash
 sudo nmap -sn 192.168.1.0/24
 ```
-![WiFi Audit Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/sc/step5.png)
+![WiFi Audit Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/WifiSecurityAudit/screenshots/step5.png)
 
 Can be used instead of `arp-scan`.
 

@@ -24,7 +24,7 @@ evil_payload
 rm -rf /
 powershell -nop -w hidden
 ```
-![Antivirus Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/sc/2025-07-05_20-08.png)
+![Antivirus Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/screenshots/2025-07-05_20-08.png)
 
 Step 2: Create Sample Files
 Generate some test files to simulate clean and infected files:
@@ -34,7 +34,7 @@ echo "rm -rf /" > malware1.txt
 echo "Just a normal script" > script.py
 echo "powershell -nop -w hidden" > malware2.txt
 ```
-![Virus Detection Alert](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/sc/2025-07-05_20-10.png)
+![Virus Detection Alert](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/screenshots/2025-07-05_20-10.png)
 
 Step 3: Create Scanner Script
 Create a file scanner.py and paste the following code:
@@ -71,7 +71,7 @@ def scan_directory(directory, signature_file):
 if __name__ == "__main__":
     scan_directory(".", "signatures.txt")
 ```
-![Antivirus Quarantine](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/sc/2025-07-05_20-11.png)
+![Antivirus Quarantine](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/screenshots/2025-07-05_20-11.png)
 
 Step 4: Run the Scanner
 Execute the script:
@@ -88,8 +88,8 @@ Example Output
 [OK] Clean: ./clean.txt
 [OK] Clean: ./script.py
 ```
-![Antivirus Scan Complete](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/sc/2025-07-05_20-12.png)
-![Antivirus Threat Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/sc/2025-07-05_20-15.png)
+![Antivirus Scan Complete](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/screenshots/2025-07-05_20-12.png)
+![Antivirus Threat Report](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/PythonAntivirusSimulator/screenshots/2025-07-05_20-15.png)
 
 This basic antivirus simulator teaches how malware detection engines look for known patterns in files. It's a simplified but effective way to understand the foundation of signature-based security tools.
 """

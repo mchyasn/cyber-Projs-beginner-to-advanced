@@ -64,7 +64,7 @@ SecureExtension/icons/icon48.png
 
 Suggested icon: padlock, warning sign, or any placeholder
 ```
-![Browser Security Extension](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/sc/1.png)
+![Browser Security Extension](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/screenshots/1.png)
 
 
 Step 4: Load Extension into Chrome or Brave
@@ -74,14 +74,14 @@ Step 4: Load Extension into Chrome or Brave
 3. Click "Load unpacked"
 4. Select your SecureExtension/ directory
 ```
-![Extension Security Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/sc/2.png)
+![Extension Security Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/screenshots/2.png)
 
 Step 5: Test
 ```
 Visit: http://neverssl.com
 Expected: You should receive a browser notification that warns about insecure connection
 ```
-![Extension Threat Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/sc/3.png)
+![Extension Threat Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureExtension/screenshots/3.png)
 
 Step 6: Optional Ideas
 ```

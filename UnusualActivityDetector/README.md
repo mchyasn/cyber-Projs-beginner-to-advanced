@@ -19,7 +19,7 @@ Setup Instructions:
    pip install psutil
 ```
 
-![Anomaly Detection Alert](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/sc/2025-07-05_21-06.png)
+![Anomaly Detection Alert](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/screenshots/2025-07-05_21-06.png)
 
 Script: activity_detector.py
 ----------------------------
@@ -31,14 +31,14 @@ Example process whitelist:
        "systemd", "bash", "sshd", "python3", "zsh", "firefox", "chrome", "Xorg"
    }
 ```
-![Suspicious Activity Detected](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/sc/2025-07-05_21-08.png)
+![Suspicious Activity Detected](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/screenshots/2025-07-05_21-08.png)
 Usage:
 ------
 Run the script manually:
 
    python3 activity_detector.py
 
-![Security Alert Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/sc/2025-07-05_21-09.png)
+![Security Alert Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/UnusualActivityDetector/screenshots/2025-07-05_21-09.png)
 
 Optional - Continuous Monitoring:
 ---------------------------------

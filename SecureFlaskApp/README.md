@@ -26,7 +26,7 @@ Features
 
     pip install flask flask_sqlalchemy flask_wtf
 
-   ![Secure Flask Login](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/sc/Screenshot%202025-07-05%20101219.png)
+   ![Secure Flask Login](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/screenshots/Screenshot%202025-07-05%20101219.png)
 
 4. Create templates/ with:
 
@@ -38,10 +38,10 @@ login.html
 
 dashboard.html
 
-![Flask Admin Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/sc/Screenshot%202025-07-05%20101700.png)
+![Flask Admin Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/screenshots/Screenshot%202025-07-05%20101700.png)
 
 5. create the file , Run the app:
-![Flask User Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/sc/Screenshot%202025-07-05%20101318.png)
+![Flask User Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/screenshots/Screenshot%202025-07-05%20101318.png)
 ```bash
 from flask import Flask, render_template, redirect, request, url_for, session, flash
 from flask_sqlalchemy import SQLAlchemy
@@ -125,6 +125,6 @@ if __name__ == '__main__':
 Register a new user (test credentials like admin / adminpass).
 
 Login and test the dashboard.
-![Flask Security Features](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/sc/Screenshot%202025-07-05%20102402.png)
+![Flask Security Features](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/SecureFlaskApp/screenshots/Screenshot%202025-07-05%20102402.png)
 
 
