@@ -1,0 +1,4 @@
+malicious.exe
+evil_payload
+rm -rf /
+powershell -nop -w hidden
