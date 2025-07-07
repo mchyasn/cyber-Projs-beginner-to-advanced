@@ -8,33 +8,19 @@ This project simulates a Denial-of-Service (DoS) and basic DDoS-style attack in 
 
 This project is for **educational use only**. Do not use any tools or scripts from this lab to attack public websites, networks, or systems without **explicit permission**.
 
----
-
-##  Project Structure
-
-```
-DDoS-Lab/
-├── attack.sh           # Script to run simulated attacks
-├── attack.log          # Output log of attack attempts
-├── README.md           # Documentation
-├── requirements.txt    # Optional dependencies list
-└── screenshots/        # Proof of simulation
-```
-
----
-
 ##  Setup Requirements
-
+```
 - Kali Linux or Ubuntu VM
 - Apache2 web server as target
 - Tools: `ab`, `hping3`, `slowloris`
-
+```
 Install them:
 
 ```bash
 sudo apt update
 sudo apt install apache2 apache2-utils hping3 git -y
 ```
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/0.png)
 
 Install `slowloris`:
 
@@ -54,7 +40,7 @@ sudo systemctl start apache2
 
 Verify at: `http://127.0.0.1`
 
----
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/1.png)
 
 ### 2. Launch the Attacks
 
@@ -65,7 +51,7 @@ Run each attack separately from `attack.sh` or manually.
 ```bash
 ab -n 1000 -c 100 http://127.0.0.1/ >> attack.log
 ```
-
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/2.png)
 #### B. Slowloris
 
 ```bash
@@ -77,6 +63,7 @@ python3 slowloris/slowloris.py 127.0.0.1 >> attack.log
 ```bash
 sudo hping3 -S 127.0.0.1 -p 80 --flood >> attack.log
 ```
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/4.png)
 
 (Interrupt with `Ctrl+C` after 5–10 sec)
 
@@ -91,22 +78,8 @@ top
 htop
 iftop -i lo
 ```
-
-Take screenshots to document resource usage and server responsiveness.
-
----
-
-## 📸 Suggested Screenshots
-
-Save these in `screenshots/`:
-
-- Apache server running
-- Each attack being launched
-- Apache becoming unresponsive
-- CPU/network spike in `top` or `iftop`
-
----
-
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/5.png)
+![DDoS Simulation Lab](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/DDoS-Lab/screenshots/55.png)
 ## Educational Value
 
 - Shows how stress on services impacts performance
