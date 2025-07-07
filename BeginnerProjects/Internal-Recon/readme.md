@@ -11,9 +11,7 @@ Command:
 ```bash
 ip a
 ```
-
- Screenshot:  
-![IP Address](\BeginnerProjects/)
+![Network IP Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/ip.a.png)
 
 
 ###  Step 2: Create Output Directory
@@ -22,11 +20,7 @@ Command:
 ```bash
 mkdir -p ~/Desktop/scans
 ```
-
- Screenshot:  
-![Create Output Directory](\BeginnerProjects/)
-
-
+![Output Directory Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/Create-Output-Directory.png)
 
 ###  Step 3: Ping Sweep (Detect Live Hosts)
 
@@ -34,12 +28,7 @@ Command:
 ```bash
 nmap -sn 192.168.44.0/24 -oN ~/Desktop/scans/ping-scan.txt
 ```
-
- [ping-scan.txt](scans/ping-scan.txt)  
- Screenshot:  
-![Ping Sweep](\BeginnerProjects/)
-
-
+![Network Ping Sweep](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/ping-sweep.png)
 
 ###  Step 4: Full Port Scan on Target
 
@@ -47,9 +36,7 @@ Command:
 ```bash
 nmap --privileged -p- 192.168.44.130 -oN ~/Desktop/scans/port-scan.txt
 ```
-
- [port-scan.txt](scans/port-scan.txt)
-
+![Network Host Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/full-detection.png)
 
 ###  Step 5: Quick TCP SYN Scan
 
@@ -58,11 +45,7 @@ Command:
 nmap -sS 192.168.44.130 -oN ~/Desktop/scans/quick-scan.txt
 ```
 
- [quick-scan.txt](scans/quick-scan.txt)  
- Screenshot:  
-![Quick Scan](\BeginnerProjects/)
-
-
+![Quick Network Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/quick-scan.png)
 
 ### Step 6: Final Service + OS Detection Scan
 
@@ -71,9 +54,7 @@ Command:
 nmap -sS -sV -O 192.168.44.130 -oN ~/Desktop/scans/final-scan.txt
 ```
 
- [final-scan.txt](scans/final-scan.txt)  
- Screenshot:  
-![Full Detection](\BeginnerProjects/)
+![Network Host Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/full-detection.png)
 
 
 
@@ -86,9 +67,7 @@ New-NetFirewallRule -DisplayName "Allow RDP" -Direction Inbound -Protocol TCP -L
 New-NetFirewallRule -DisplayName "Allow SMB" -Direction Inbound -Protocol TCP -LocalPort 445 -Action Allow
 New-NetFirewallRule -DisplayName "Allow RPC" -Direction Inbound -Protocol TCP -LocalPort 135 -Action Allow
 ```
-
- Screenshot:  
-![Firewall Rules](\BeginnerProjects/)
+![Firewall Rules Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/Internal-Recon/screenshots/firewall-rules.png)
 
 
 
