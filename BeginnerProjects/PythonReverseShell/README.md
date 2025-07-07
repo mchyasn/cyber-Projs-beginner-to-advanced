@@ -21,7 +21,7 @@ This project demonstrates a **basic reverse shell in Python** between a **Window
 
 ## Step 1: Create the Listener (Kali)
 
-![Step 0](\BeginnerProjects/)
+![Reverse Shell Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonReverseShell/screenshots/step0.png)
 
 Create a file named `listener.py` with the following content:
 
@@ -43,8 +43,7 @@ while True:
     print(result)
 ```
 
-![Step 1](\BeginnerProjects/)
-
+![Reverse Shell Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonReverseShell/screenshots/step1.png)
 ---
 
 ## Step 2: Create the Reverse Shell (Windows 11)
@@ -64,8 +63,7 @@ while True:
     s.send(output.encode())
 ```
 
-![Step 2](\BeginnerProjects/)
-
+![Reverse Shell Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonReverseShell/screenshots/step2.png)
 ---
 
 ## Step 3: Transfer `reverse_shell.py` to Windows
@@ -98,8 +96,7 @@ Double-click `reverse_shell.py` (or run via terminal if Python is installed).
 
 If successful, you'll see a shell prompt in Kali. You can now send commands to the Windows machine.
 
-![Step 3](\BeginnerProjects/)
-
+![Reverse Shell Setup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonReverseShell/screenshots/step3.png)
 ---
 
 ## What You Learned
