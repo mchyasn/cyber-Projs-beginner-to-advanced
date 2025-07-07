@@ -1,0 +1,1274 @@
+[*] Checking for hidden files in /usr/bin...
+drwxr-xr-x  2 root root        135168 Jul  6 21:27 .
+drwxr-xr-x 15 root root          4096 May 29 15:17 ..
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 1password2john -> ../share/john/1password2john.py
+-rwxr-xr-x  1 root root            96 Aug  1  2022 2to3-2.7
+lrwxrwxrwx  1 root root            24 Jun  3 00:23 7z2john -> ../share/john/7z2john.pl
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 adxcsouf2john -> ../share/john/adxcsouf2john.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 aem2john -> ../share/john/aem2john.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 aix2john -> ../share/john/aix2john.py
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 amdgpu-arch-19 -> ../lib/llvm-19/bin/amdgpu-arch
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 analyze-build-19 -> ../lib/llvm-19/bin/analyze-build
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 andotp2john -> ../share/john/andotp2john.py
+lrwxrwxrwx  1 root root            35 Jun  3 00:23 androidbackup2john -> ../share/john/androidbackup2john.py
+lrwxrwxrwx  1 root root            31 Jun 19 18:08 androiddeployqt6 -> ../lib/qt6/bin/androiddeployqt6
+lrwxrwxrwx  1 root root            32 Jun  3 00:23 androidfde2john -> ../share/john/androidfde2john.py
+lrwxrwxrwx  1 root root            14 Dec 29  2024 animate-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 ansible2john -> ../share/john/ansible2john.py
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 apex2john -> ../share/john/apex2john.py
+-rwxr-xr-x  1 root root         24571 Mar 13  2024 appid_detector_builder.sh
+lrwxrwxrwx  1 root root            32 Jun  3 00:23 applenotes2john -> ../share/john/applenotes2john.py
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 aruba2john -> ../share/john/aruba2john.py
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 atmail2john -> ../share/john/atmail2john.pl
+lrwxrwxrwx  1 root root            59 Mar 14 17:58 authorindex -> ../share/texlive/texmf-dist/scripts/authorindex/authorindex
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 axcrypt2john -> ../share/john/axcrypt2john.py
+-rwxr-xr-x  1 root root       1298416 Jul  6 21:25 .bash_hidden
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 bestcrypt2john -> ../share/john/bestcrypt2john.py
+-rwxr-xr-x  1 root root        129352 Mar 13 16:10 bibtex.original
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 bitcoin2john -> ../share/john/bitcoin2john.py
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 bitshares2john -> ../share/john/bitshares2john.py
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 bitwarden2john -> ../share/john/bitwarden2john.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 bks2john -> ../share/john/bks2john.py
+lrwxrwxrwx  1 root root            32 Jun  3 00:23 blockchain2john -> ../share/john/blockchain2john.py
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 bugpoint-18 -> ../lib/llvm-18/bin/bugpoint
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 bugpoint-19 -> ../lib/llvm-19/bin/bugpoint
+-rwxr-xr-x  1 root root           563 Apr 29 06:58 bundle3.3
+-rwxr-xr-x  1 root root           565 Apr 29 06:58 bundler3.3
+lrwxrwxrwx  1 root root            57 Mar 13 18:13 cachepic -> ../share/texlive/texmf-dist/scripts/cachepic/cachepic.tlu
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 ccache2john -> ../share/john/ccache2john.py
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 c-index-test-19 -> ../lib/llvm-19/bin/c-index-test
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 cisco2john -> ../share/john/cisco2john.pl
+lrwxrwxrwx  1 root root            24 Nov 11  2024 clang -> ../lib/llvm-19/bin/clang
+lrwxrwxrwx  1 root root            26 Nov 11  2024 clang++ -> ../lib/llvm-19/bin/clang++
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 clang++-18 -> ../lib/llvm-18/bin/clang++
+lrwxrwxrwx  1 root root            24 Jun 14 16:51 clang-18 -> ../lib/llvm-18/bin/clang
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 clang++-19 -> ../lib/llvm-19/bin/clang++
+lrwxrwxrwx  1 root root            24 Jun 14 16:51 clang-19 -> ../lib/llvm-19/bin/clang
+lrwxrwxrwx  1 root root            43 Jun 14 16:51 clang-apply-replacements-19 -> ../lib/llvm-19/bin/clang-apply-replacements
+lrwxrwxrwx  1 root root            41 Jun 14 16:51 clang-change-namespace-19 -> ../lib/llvm-19/bin/clang-change-namespace
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 clang-check-19 -> ../lib/llvm-19/bin/clang-check
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 clang-cl-19 -> ../lib/llvm-19/bin/clang-cl
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 clang-cpp-18 -> ../lib/llvm-18/bin/clang-cpp
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 clang-cpp-19 -> ../lib/llvm-19/bin/clang-cpp
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 clang-doc-19 -> ../lib/llvm-19/bin/clang-doc
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 clang-extdef-mapping-19 -> ../lib/llvm-19/bin/clang-extdef-mapping
+lrwxrwxrwx  1 root root            40 Jun 14 16:51 clang-include-cleaner-19 -> ../lib/llvm-19/bin/clang-include-cleaner
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 clang-include-fixer-19 -> ../lib/llvm-19/bin/clang-include-fixer
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 clang-installapi-19 -> ../lib/llvm-19/bin/clang-installapi
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 clang-linker-wrapper-19 -> ../lib/llvm-19/bin/clang-linker-wrapper
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 clang-move-19 -> ../lib/llvm-19/bin/clang-move
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 clang-nvlink-wrapper-19 -> ../lib/llvm-19/bin/clang-nvlink-wrapper
+lrwxrwxrwx  1 root root            40 Jun 14 16:51 clang-offload-bundler-19 -> ../lib/llvm-19/bin/clang-offload-bundler
+lrwxrwxrwx  1 root root            41 Jun 14 16:51 clang-offload-packager-19 -> ../lib/llvm-19/bin/clang-offload-packager
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 clang-pseudo-19 -> ../lib/llvm-19/bin/clang-pseudo
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 clang-query-19 -> ../lib/llvm-19/bin/clang-query
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 clang-refactor-19 -> ../lib/llvm-19/bin/clang-refactor
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 clang-rename-19 -> ../lib/llvm-19/bin/clang-rename
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 clang-reorder-fields-19 -> ../lib/llvm-19/bin/clang-reorder-fields
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 clang-repl-19 -> ../lib/llvm-19/bin/clang-repl
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 clang-scan-deps-19 -> ../lib/llvm-19/bin/clang-scan-deps
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 clang-tblgen-19 -> ../lib/llvm-19/bin/clang-tblgen
+lrwxrwxrwx  1 root root            37 Sep 26  2024 clusterdb -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            44 Sep 19  2024 command-not-found -> ../share/command-not-found/command-not-found
+lrwxrwxrwx  1 root root            14 Dec 29  2024 compare-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            14 Dec 29  2024 composite-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            14 Dec 29  2024 conjure-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            14 Dec 29  2024 convert-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            24 Jun 14 16:51 count-18 -> ../lib/llvm-18/bin/count
+lrwxrwxrwx  1 root root            24 Jun 14 16:51 count-19 -> ../lib/llvm-19/bin/count
+-rwxr-xr-x  1 root root          8381 Apr 12 11:34 cpan5.40-x86_64-linux-gnu
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 cracf2john -> ../share/john/cracf2john.py
+lrwxrwxrwx  1 root root            37 Sep 26  2024 createdb -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 createlang -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 createuser -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 dashlane2john -> ../share/john/dashlane2john.py
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 deepsound2john -> ../share/john/deepsound2john.py
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 diagtool-19 -> ../lib/llvm-19/bin/diagtool
+lrwxrwxrwx  1 root root            33 Jun  3 00:23 diskcryptor2john -> ../share/john/diskcryptor2john.py
+lrwxrwxrwx  1 root root            14 Dec 29  2024 display-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 dmg2john -> ../share/john/dmg2john.py
+lrwxrwxrwx  1 root root            29 Dec 31  2024 dnsrecon -> ../share/dnsrecon/dnsrecon.py
+lrwxrwxrwx  1 root root            29 Mar  9 12:36 dot -> ../sbin/libgvc6-config-update
+lrwxrwxrwx  1 root root            22 Aug 19  2022 dotnet -> ../share/dotnet/dotnet
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 DPAPImk2john -> ../share/john/DPAPImk2john.py
+lrwxrwxrwx  1 root root            37 Sep 26  2024 dropdb -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 droplang -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 dropuser -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 dsymutil-18 -> ../lib/llvm-18/bin/dsymutil
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 dsymutil-19 -> ../lib/llvm-19/bin/dsymutil
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 ecryptfs2john -> ../share/john/ecryptfs2john.py
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 ejabberd2john -> ../share/john/ejabberd2john.py
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 electrum2john -> ../share/john/electrum2john.py
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 encfs2john -> ../share/john/encfs2john.py
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 enpass2john -> ../share/john/enpass2john.py
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 enpass5tojohn -> ../share/john/enpass5tojohn.py
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 epspdf -> ../share/texlive/texmf-dist/scripts/epspdf/epspdf.tlu
+lrwxrwxrwx  1 root root            55 Mar 13 18:13 epspdftk -> ../share/texlive/texmf-dist/scripts/epspdf/epspdftk.tcl
+lrwxrwxrwx  1 root root             6 Feb 12 04:18 erb -> erb3.3
+-rwxr-xr-x  1 root root           524 Apr 29 06:58 erb3.3
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 ethereum2john -> ../share/john/ethereum2john.py
+lrwxrwxrwx  1 root root            53 Mar 14 17:58 exceltex -> ../share/texlive/texmf-dist/scripts/exceltex/exceltex
+-rwxr-xr-x  1 root root           249 Apr  1 15:45 f2py3.13
+lrwxrwxrwx  1 root root            55 Mar 13 18:13 fig4latex -> ../share/texlive/texmf-dist/scripts/fig4latex/fig4latex
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 FileCheck-18 -> ../lib/llvm-18/bin/FileCheck
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 FileCheck-19 -> ../lib/llvm-19/bin/FileCheck
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 filezilla2john -> ../share/john/filezilla2john.py
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 find-all-symbols-19 -> ../lib/llvm-19/bin/find-all-symbols
+lrwxrwxrwx  1 root root            30 May 27 21:55 firefox-esr -> ../lib/firefox-esr/firefox-esr
+lrwxrwxrwx  1 root root            54 Mar 13 18:13 fmtutil -> ../share/texlive/texmf-dist/scripts/texlive/fmtutil.pl
+lrwxrwxrwx  1 root root            58 Mar 13 18:13 fmtutil-sys -> ../share/texlive/texmf-dist/scripts/texlive/fmtutil-sys.sh
+lrwxrwxrwx  1 root root            59 Mar 13 18:13 fmtutil-user -> ../share/texlive/texmf-dist/scripts/texlive/fmtutil-user.sh
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 geli2john -> ../share/john/geli2john.py
+-rwxr-xr-x  1 root root           252 Apr 29 06:58 gem3.3
+lrwxrwxrwx  1 root root            55 Mar 13 18:13 getmapdl -> ../share/texlive/texmf-dist/scripts/getmap/getmapdl.lua
+-rwxr-xr-x  1 root root          5167 Apr 26 13:45 gettext.sh
+lrwxrwxrwx  1 root root            49 Apr 24 15:26 gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+lrwxrwxrwx  1 root root            53 Apr 24 15:26 glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+lrwxrwxrwx  1 root root            34 Jun 29 22:57 grub-ntldr-img -> ../lib/grub/i386-pc/grub-ntldr-img
+-rwxr-xr-x  1 root root          2181 Mar  9 12:36 gvmap.sh
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 hccapx2john -> ../share/john/hccapx2john.py
+-rwxr-xr-x  1 root root             0 Jul  6 21:25 .hidden_binary
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 hmaptool-19 -> ../lib/llvm-19/bin/hmaptool
+lrwxrwxrwx  1 root root            48 Mar 14 17:58 ht -> ../share/texlive/texmf-dist/scripts/tex4ht/ht.sh
+lrwxrwxrwx  1 root root            52 Mar 14 17:58 htcopy -> ../share/texlive/texmf-dist/scripts/tex4ht/htcopy.pl
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 htdigest2john -> ../share/john/htdigest2john.py
+lrwxrwxrwx  1 root root            53 Mar 14 17:58 htlatex -> ../share/texlive/texmf-dist/scripts/tex4ht/htlatex.sh
+lrwxrwxrwx  1 root root            51 Mar 14 17:58 htmex -> ../share/texlive/texmf-dist/scripts/tex4ht/htmex.sh
+lrwxrwxrwx  1 root root            52 Mar 14 17:58 htmove -> ../share/texlive/texmf-dist/scripts/tex4ht/htmove.pl
+lrwxrwxrwx  1 root root            51 Mar 14 17:58 httex -> ../share/texlive/texmf-dist/scripts/tex4ht/httex.sh
+lrwxrwxrwx  1 root root            52 Mar 14 17:58 httexi -> ../share/texlive/texmf-dist/scripts/tex4ht/httexi.sh
+lrwxrwxrwx  1 root root            55 Mar 14 17:58 htxelatex -> ../share/texlive/texmf-dist/scripts/tex4ht/htxelatex.sh
+lrwxrwxrwx  1 root root            53 Mar 14 17:58 htxetex -> ../share/texlive/texmf-dist/scripts/tex4ht/htxetex.sh
+lrwxrwxrwx  1 root root            48 Jun 14 16:51 hwasan_symbolize-19 -> ../lib/llvm-19/lib/clang/19/bin/hwasan_symbolize
+lrwxrwxrwx  1 root root            70 Mar 14 17:58 hyperxmp-add-bytecount -> ../share/texlive/texmf-dist/scripts/hyperxmp/hyperxmp-add-bytecount.pl
+lrwxrwxrwx  1 root root            19 Mar 28 14:06 i686-w64-mingw32-ld.bfd -> i686-w64-mingw32-ld
+lrwxrwxrwx  1 root root            33 Jun  3 00:23 ibmiscanner2john -> ../share/john/ibmiscanner2john.py
+lrwxrwxrwx  1 root root            14 Dec 29  2024 identify-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 ikescan2john -> ../share/john/ikescan2john.py
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-addcomputer -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-atexec -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-changepasswd -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-dacledit -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-dcomexec -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-describeTicket -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-dpapi -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-DumpNTLMInfo -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-esentutl -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-exchanger -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-findDelegation -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-GetADComputers -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-GetADUsers -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-getArch -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-Get-GPPPassword -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-GetLAPSPassword -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-GetNPUsers -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-getPac -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-getST -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-getTGT -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-GetUserSPNs -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-goldenPac -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-karmaSMB -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-keylistattack -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-lookupsid -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-machine_role -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-mimikatz -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-mqtt_check -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-mssqlclient -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-mssqlinstance -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-net -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Apr  9 08:26 impacket-netview -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ntfs-read -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ntlmrelayx -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-owneredit -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ping -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ping6 -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-psexec -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-raiseChild -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-rbcd -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-rdp_check -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-reg -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-registry-read -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Apr  9 08:26 impacket-rpcdump -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-rpcmap -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-sambaPipe -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Apr  9 08:26 impacket-samrdump -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Apr  9 08:26 impacket-secretsdump -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-services -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-smbclient -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-smbexec -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-smbserver -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-sniff -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-sniffer -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-split -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ticketConverter -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-ticketer -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-tstool -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Apr  9 08:26 impacket-wmiexec -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-wmipersist -> ../share/impacket/script
+lrwxrwxrwx  1 root root            24 Sep 29  2024 impacket-wmiquery -> ../share/impacket/script
+lrwxrwxrwx  1 root root            14 Dec 29  2024 import-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 intercept-build-19 -> ../lib/llvm-19/bin/intercept-build
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 ios7tojohn -> ../share/john/ios7tojohn.pl
+lrwxrwxrwx  1 root root            28 Nov 20  2024 iptables-xml -> ../sbin/xtables-legacy-multi
+-rwxr-xr-x  1 root root         51841 Sep 17  2020 ipwhois_cli.py
+-rwxr-xr-x  1 root root          9494 Sep 17  2020 ipwhois_utils_cli.py
+lrwxrwxrwx  1 root root             6 Feb 12 04:18 irb -> irb3.3
+-rwxr-xr-x  1 root root           524 Apr 29 06:58 irb3.3
+lrwxrwxrwx  1 root root            35 Jun  3 00:23 itunes_backup2john -> ../share/john/itunes_backup2john.pl
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 iwork2john -> ../share/john/iwork2john.py
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 kdcdump2john -> ../share/john/kdcdump2john.py
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 keychain2john -> ../share/john/keychain2john.py
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 keyring2john -> ../share/john/keyring2john.py
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 keystore2john -> ../share/john/keystore2john.py
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 kirbi2john -> ../share/john/kirbi2john.py
+lrwxrwxrwx  1 root root            33 Jun  3 00:23 known_hosts2john -> ../share/john/known_hosts2john.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 krb2john -> ../share/john/krb2john.py
+lrwxrwxrwx  1 root root            15 Feb 23 12:12 krb5-config -> krb5-config.mit
+-rwxr-xr-x  1 root root          6842 Feb 23 12:12 krb5-config.mit
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 kwallet2john -> ../share/john/kwallet2john.py
+lrwxrwxrwx  1 root root            55 Mar 14 17:58 l3build -> ../share/texlive/texmf-dist/scripts/l3build/l3build.lua
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 lastpass2john -> ../share/john/lastpass2john.py
+lrwxrwxrwx  1 root root            57 Mar 14 17:58 latexminted -> ../share/texlive/texmf-dist/scripts/minted/latexminted.py
+lrwxrwxrwx  1 root root            58 Mar 14 17:58 latex-wordcount -> ../share/texlive/texmf-dist/scripts/wordcount/wordcount.sh
+lrwxrwxrwx  1 root root            23 Mar  3 16:01 ld.bfd -> x86_64-linux-gnu-ld.bfd
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 ldif2john -> ../share/john/ldif2john.pl
+lrwxrwxrwx  1 root root            29 Jun 18 00:49 ld.so -> ../lib64/ld-linux-x86-64.so.2
+-rwxr-xr-x  1 root root          2489 Sep 18  2024 lft.db
+lrwxrwxrwx  1 root root            33 Jun  3 00:23 libreoffice2john -> ../share/john/libreoffice2john.py
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 lion2john -> ../share/john/lion2john.pl
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 llc-18 -> ../lib/llvm-18/bin/llc
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 llc-19 -> ../lib/llvm-19/bin/llc
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 lli-18 -> ../lib/llvm-18/bin/lli
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 lli-19 -> ../lib/llvm-19/bin/lli
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 lli-child-target-18 -> ../lib/llvm-18/bin/lli-child-target
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 lli-child-target-19 -> ../lib/llvm-19/bin/lli-child-target
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-addr2line-18 -> ../lib/llvm-18/bin/llvm-addr2line
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-addr2line-19 -> ../lib/llvm-19/bin/llvm-addr2line
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-ar-18 -> ../lib/llvm-18/bin/llvm-ar
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-ar-19 -> ../lib/llvm-19/bin/llvm-ar
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-as-18 -> ../lib/llvm-18/bin/llvm-as
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-as-19 -> ../lib/llvm-19/bin/llvm-as
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-bcanalyzer-18 -> ../lib/llvm-18/bin/llvm-bcanalyzer
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-bcanalyzer-19 -> ../lib/llvm-19/bin/llvm-bcanalyzer
+lrwxrwxrwx  1 root root            37 Jun 14 16:51 llvm-bitcode-strip-18 -> ../lib/llvm-18/bin/llvm-bitcode-strip
+lrwxrwxrwx  1 root root            37 Jun 14 16:51 llvm-bitcode-strip-19 -> ../lib/llvm-19/bin/llvm-bitcode-strip
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-cat-18 -> ../lib/llvm-18/bin/llvm-cat
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-cat-19 -> ../lib/llvm-19/bin/llvm-cat
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-cfi-verify-18 -> ../lib/llvm-18/bin/llvm-cfi-verify
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-cfi-verify-19 -> ../lib/llvm-19/bin/llvm-cfi-verify
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-config-18 -> ../lib/llvm-18/bin/llvm-config
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-config-19 -> ../lib/llvm-19/bin/llvm-config
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-cov-18 -> ../lib/llvm-18/bin/llvm-cov
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-cov-19 -> ../lib/llvm-19/bin/llvm-cov
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-c-test-18 -> ../lib/llvm-18/bin/llvm-c-test
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-c-test-19 -> ../lib/llvm-19/bin/llvm-c-test
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-cvtres-18 -> ../lib/llvm-18/bin/llvm-cvtres
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-cvtres-19 -> ../lib/llvm-19/bin/llvm-cvtres
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-cxxdump-18 -> ../lib/llvm-18/bin/llvm-cxxdump
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-cxxdump-19 -> ../lib/llvm-19/bin/llvm-cxxdump
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-cxxfilt-18 -> ../lib/llvm-18/bin/llvm-cxxfilt
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-cxxfilt-19 -> ../lib/llvm-19/bin/llvm-cxxfilt
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-cxxmap-18 -> ../lib/llvm-18/bin/llvm-cxxmap
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-cxxmap-19 -> ../lib/llvm-19/bin/llvm-cxxmap
+lrwxrwxrwx  1 root root            42 Jun 14 16:51 llvm-debuginfo-analyzer-18 -> ../lib/llvm-18/bin/llvm-debuginfo-analyzer
+lrwxrwxrwx  1 root root            42 Jun 14 16:51 llvm-debuginfo-analyzer-19 -> ../lib/llvm-19/bin/llvm-debuginfo-analyzer
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-debuginfod-18 -> ../lib/llvm-18/bin/llvm-debuginfod
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-debuginfod-19 -> ../lib/llvm-19/bin/llvm-debuginfod
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 llvm-debuginfod-find-18 -> ../lib/llvm-18/bin/llvm-debuginfod-find
+lrwxrwxrwx  1 root root            39 Jun 14 16:51 llvm-debuginfod-find-19 -> ../lib/llvm-19/bin/llvm-debuginfod-find
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-diff-18 -> ../lib/llvm-18/bin/llvm-diff
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-diff-19 -> ../lib/llvm-19/bin/llvm-diff
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-dis-18 -> ../lib/llvm-18/bin/llvm-dis
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-dis-19 -> ../lib/llvm-19/bin/llvm-dis
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-dlltool-18 -> ../lib/llvm-18/bin/llvm-dlltool
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-dlltool-19 -> ../lib/llvm-19/bin/llvm-dlltool
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-dwarfdump-18 -> ../lib/llvm-18/bin/llvm-dwarfdump
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-dwarfdump-19 -> ../lib/llvm-19/bin/llvm-dwarfdump
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-dwarfutil-18 -> ../lib/llvm-18/bin/llvm-dwarfutil
+lrwxrwxrwx  1 root root            33 Jun 14 16:51 llvm-dwarfutil-19 -> ../lib/llvm-19/bin/llvm-dwarfutil
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-dwp-18 -> ../lib/llvm-18/bin/llvm-dwp
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-dwp-19 -> ../lib/llvm-19/bin/llvm-dwp
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-exegesis-18 -> ../lib/llvm-18/bin/llvm-exegesis
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-exegesis-19 -> ../lib/llvm-19/bin/llvm-exegesis
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-extract-18 -> ../lib/llvm-18/bin/llvm-extract
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-extract-19 -> ../lib/llvm-19/bin/llvm-extract
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-gsymutil-18 -> ../lib/llvm-18/bin/llvm-gsymutil
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-gsymutil-19 -> ../lib/llvm-19/bin/llvm-gsymutil
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-ifs-18 -> ../lib/llvm-18/bin/llvm-ifs
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-ifs-19 -> ../lib/llvm-19/bin/llvm-ifs
+lrwxrwxrwx  1 root root            41 Jun 14 16:51 llvm-install-name-tool-18 -> ../lib/llvm-18/bin/llvm-install-name-tool
+lrwxrwxrwx  1 root root            41 Jun 14 16:51 llvm-install-name-tool-19 -> ../lib/llvm-19/bin/llvm-install-name-tool
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-jitlink-18 -> ../lib/llvm-18/bin/llvm-jitlink
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-jitlink-19 -> ../lib/llvm-19/bin/llvm-jitlink
+lrwxrwxrwx  1 root root            40 Jun 14 16:51 llvm-jitlink-executor-18 -> ../lib/llvm-18/bin/llvm-jitlink-executor
+lrwxrwxrwx  1 root root            40 Jun 14 16:51 llvm-jitlink-executor-19 -> ../lib/llvm-19/bin/llvm-jitlink-executor
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-lib-18 -> ../lib/llvm-18/bin/llvm-lib
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-lib-19 -> ../lib/llvm-19/bin/llvm-lib
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 llvm-libtool-darwin-18 -> ../lib/llvm-18/bin/llvm-libtool-darwin
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 llvm-libtool-darwin-19 -> ../lib/llvm-19/bin/llvm-libtool-darwin
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-link-18 -> ../lib/llvm-18/bin/llvm-link
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-link-19 -> ../lib/llvm-19/bin/llvm-link
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-lipo-18 -> ../lib/llvm-18/bin/llvm-lipo
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-lipo-19 -> ../lib/llvm-19/bin/llvm-lipo
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-lto-18 -> ../lib/llvm-18/bin/llvm-lto
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-lto-19 -> ../lib/llvm-19/bin/llvm-lto
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-lto2-18 -> ../lib/llvm-18/bin/llvm-lto2
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-lto2-19 -> ../lib/llvm-19/bin/llvm-lto2
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-mc-18 -> ../lib/llvm-18/bin/llvm-mc
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-mc-19 -> ../lib/llvm-19/bin/llvm-mc
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-mca-18 -> ../lib/llvm-18/bin/llvm-mca
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-mca-19 -> ../lib/llvm-19/bin/llvm-mca
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-ml-18 -> ../lib/llvm-18/bin/llvm-ml
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-ml-19 -> ../lib/llvm-19/bin/llvm-ml
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-modextract-18 -> ../lib/llvm-18/bin/llvm-modextract
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-modextract-19 -> ../lib/llvm-19/bin/llvm-modextract
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-mt-18 -> ../lib/llvm-18/bin/llvm-mt
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-mt-19 -> ../lib/llvm-19/bin/llvm-mt
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-nm-18 -> ../lib/llvm-18/bin/llvm-nm
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-nm-19 -> ../lib/llvm-19/bin/llvm-nm
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-objcopy-18 -> ../lib/llvm-18/bin/llvm-objcopy
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-objcopy-19 -> ../lib/llvm-19/bin/llvm-objcopy
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-objdump-18 -> ../lib/llvm-18/bin/llvm-objdump
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-objdump-19 -> ../lib/llvm-19/bin/llvm-objdump
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-opt-report-18 -> ../lib/llvm-18/bin/llvm-opt-report
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-opt-report-19 -> ../lib/llvm-19/bin/llvm-opt-report
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-otool-18 -> ../lib/llvm-18/bin/llvm-otool
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-otool-19 -> ../lib/llvm-19/bin/llvm-otool
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-pdbutil-18 -> ../lib/llvm-18/bin/llvm-pdbutil
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-pdbutil-19 -> ../lib/llvm-19/bin/llvm-pdbutil
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 llvm-PerfectShuffle-18 -> ../lib/llvm-18/bin/llvm-PerfectShuffle
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 llvm-PerfectShuffle-19 -> ../lib/llvm-19/bin/llvm-PerfectShuffle
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-profdata-18 -> ../lib/llvm-18/bin/llvm-profdata
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-profdata-19 -> ../lib/llvm-19/bin/llvm-profdata
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-profgen-18 -> ../lib/llvm-18/bin/llvm-profgen
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-profgen-19 -> ../lib/llvm-19/bin/llvm-profgen
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-ranlib-18 -> ../lib/llvm-18/bin/llvm-ranlib
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-ranlib-19 -> ../lib/llvm-19/bin/llvm-ranlib
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-rc-18 -> ../lib/llvm-18/bin/llvm-rc
+lrwxrwxrwx  1 root root            26 Jun 14 16:51 llvm-rc-19 -> ../lib/llvm-19/bin/llvm-rc
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-readelf-18 -> ../lib/llvm-18/bin/llvm-readelf
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-readelf-19 -> ../lib/llvm-19/bin/llvm-readelf
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-readobj-18 -> ../lib/llvm-18/bin/llvm-readobj
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-readobj-19 -> ../lib/llvm-19/bin/llvm-readobj
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-readtapi-18 -> ../lib/llvm-18/bin/llvm-readtapi
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 llvm-readtapi-19 -> ../lib/llvm-19/bin/llvm-readtapi
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-reduce-18 -> ../lib/llvm-18/bin/llvm-reduce
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-reduce-19 -> ../lib/llvm-19/bin/llvm-reduce
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-remarkutil-18 -> ../lib/llvm-18/bin/llvm-remarkutil
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-remarkutil-19 -> ../lib/llvm-19/bin/llvm-remarkutil
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-rtdyld-18 -> ../lib/llvm-18/bin/llvm-rtdyld
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-rtdyld-19 -> ../lib/llvm-19/bin/llvm-rtdyld
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-sim-18 -> ../lib/llvm-18/bin/llvm-sim
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 llvm-sim-19 -> ../lib/llvm-19/bin/llvm-sim
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-size-18 -> ../lib/llvm-18/bin/llvm-size
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-size-19 -> ../lib/llvm-19/bin/llvm-size
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-split-18 -> ../lib/llvm-18/bin/llvm-split
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-split-19 -> ../lib/llvm-19/bin/llvm-split
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-stress-18 -> ../lib/llvm-18/bin/llvm-stress
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-stress-19 -> ../lib/llvm-19/bin/llvm-stress
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-strings-18 -> ../lib/llvm-18/bin/llvm-strings
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-strings-19 -> ../lib/llvm-19/bin/llvm-strings
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-strip-18 -> ../lib/llvm-18/bin/llvm-strip
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 llvm-strip-19 -> ../lib/llvm-19/bin/llvm-strip
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-symbolizer-18 -> ../lib/llvm-18/bin/llvm-symbolizer
+lrwxrwxrwx  1 root root            34 Jun 14 16:51 llvm-symbolizer-19 -> ../lib/llvm-19/bin/llvm-symbolizer
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-tblgen-18 -> ../lib/llvm-18/bin/llvm-tblgen
+lrwxrwxrwx  1 root root            30 Jun 14 16:51 llvm-tblgen-19 -> ../lib/llvm-19/bin/llvm-tblgen
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 llvm-tli-checker-18 -> ../lib/llvm-18/bin/llvm-tli-checker
+lrwxrwxrwx  1 root root            35 Jun 14 16:51 llvm-tli-checker-19 -> ../lib/llvm-19/bin/llvm-tli-checker
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-undname-18 -> ../lib/llvm-18/bin/llvm-undname
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-undname-19 -> ../lib/llvm-19/bin/llvm-undname
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-windres-18 -> ../lib/llvm-18/bin/llvm-windres
+lrwxrwxrwx  1 root root            31 Jun 14 16:51 llvm-windres-19 -> ../lib/llvm-19/bin/llvm-windres
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-xray-18 -> ../lib/llvm-18/bin/llvm-xray
+lrwxrwxrwx  1 root root            28 Jun 14 16:51 llvm-xray-19 -> ../lib/llvm-19/bin/llvm-xray
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 lotus2john -> ../share/john/lotus2john.py
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 luks2john -> ../share/john/luks2john.py
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 lwarpmk -> ../share/texlive/texmf-dist/scripts/lwarp/lwarpmk.lua
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 mac2john -> ../share/john/mac2john.py
+-rwxr-xr-x  1 root root         15016 Dec 29  2024 magick-im7.q16
+lrwxrwxrwx  1 root root            14 Dec 29  2024 magick-script-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            13 Mar 29 08:22 mailq -> ../sbin/exim4
+lrwxrwxrwx  1 root root            54 Mar 14 17:58 makedtx -> ../share/texlive/texmf-dist/scripts/makedtx/makedtx.pl
+lrwxrwxrwx  1 root root            61 Mar 14 17:58 makeglossaries -> ../share/texlive/texmf-dist/scripts/glossaries/makeglossaries
+lrwxrwxrwx  1 root root            70 Mar 14 17:58 makeglossaries-lite -> ../share/texlive/texmf-dist/scripts/glossaries/makeglossaries-lite.lua
+lrwxrwxrwx  1 root root            56 Mar 13 18:13 mathspic -> ../share/texlive/texmf-dist/scripts/mathspic/mathspic.pl
+lrwxrwxrwx  1 root root            32 Jun  3 00:23 mcafee_epo2john -> ../share/john/mcafee_epo2john.py
+-rwxr-xr-x  1 root root          5725 Apr 30 13:18 mesa-overlay-control.py
+lrwxrwxrwx  1 root root            51 Mar 14 17:58 mk4ht -> ../share/texlive/texmf-dist/scripts/tex4ht/mk4ht.pl
+lrwxrwxrwx  1 root root            47 Mar 13 18:13 mkpic -> ../share/texlive/texmf-dist/scripts/mkpic/mkpic
+lrwxrwxrwx  1 root root            52 Mar 13 18:13 mktexlsr -> ../share/texlive/texmf-dist/scripts/texlive/mktexlsr
+lrwxrwxrwx  1 root root            51 Mar 13 18:13 mktexmf -> ../share/texlive/texmf-dist/scripts/texlive/mktexmf
+lrwxrwxrwx  1 root root            51 Mar 13 18:13 mktexpk -> ../share/texlive/texmf-dist/scripts/texlive/mktexpk
+lrwxrwxrwx  1 root root            52 Mar 13 18:13 mktextfm -> ../share/texlive/texmf-dist/scripts/texlive/mktextfm
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 modularize-19 -> ../lib/llvm-19/bin/modularize
+lrwxrwxrwx  1 root root            14 Dec 29  2024 mogrify-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 monero2john -> ../share/john/monero2john.py
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 money2john -> ../share/john/money2john.py
+lrwxrwxrwx  1 root root            14 Dec 29  2024 montage-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 mosquitto2john -> ../share/john/mosquitto2john.py
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 mozilla2john -> ../share/john/mozilla2john.py
+-rwxr-xr-x  1 root root        179592 Dec 22  2024 mpg123.bin
+lrwxrwxrwx  1 root root            59 Mar 13 18:13 mptopdf -> ../share/texlive/texmf-dist/scripts/context/perl/mptopdf.pl
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-egghunter -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-exe2vba -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-exe2vbs -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-find_badchars -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            45 Jun 16 05:35 msf-halflm_second -> ../share/metasploit-framework/script-password
+lrwxrwxrwx  1 root root            45 Jun 16 05:35 msf-hmac_sha1_crack -> ../share/metasploit-framework/script-password
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-java_deserializer -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-jsobfu -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            42 Jun 16 05:35 msf-makeiplist -> ../share/metasploit-framework/script-recon
+lrwxrwxrwx  1 root root            45 Jun 16 05:35 msf-md5_lookup -> ../share/metasploit-framework/script-password
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-metasm_shell -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-msf_irb_shell -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-nasm_shell -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-pattern_create -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-pattern_offset -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-pdf2xdp -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            44 Jun 16 05:35 msf-virustotal -> ../share/metasploit-framework/script-exploit
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 multibit2john -> ../share/john/multibit2john.py
+-rwxr-xr-x  1 root root         35032 Jan  2  2025 nc.traditional
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 neo2john -> ../share/john/neo2john.py
+lrwxrwxrwx  1 root root            13 Mar 29 08:22 newaliases -> ../sbin/exim4
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 not-18 -> ../lib/llvm-18/bin/not
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 not-19 -> ../lib/llvm-19/bin/not
+-rwxr-xr-x  1 root root         14648 Oct  5  2024 ntfs-3g.probe
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 nvptx-arch-19 -> ../lib/llvm-19/bin/nvptx-arch
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 obj2yaml-18 -> ../lib/llvm-18/bin/obj2yaml
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 obj2yaml-19 -> ../lib/llvm-19/bin/obj2yaml
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 office2john -> ../share/john/office2john.py
+lrwxrwxrwx  1 root root            38 Jun  3 00:23 openbsd_softraid2john -> ../share/john/openbsd_softraid2john.py
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 openssl2john -> ../share/john/openssl2john.py
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 opt-18 -> ../lib/llvm-18/bin/opt
+lrwxrwxrwx  1 root root            22 Jun 14 16:51 opt-19 -> ../lib/llvm-19/bin/opt
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 padlock2john -> ../share/john/padlock2john.py
+lrwxrwxrwx  1 root root            60 Mar 14 17:58 pagelayoutapi -> ../share/texlive/texmf-dist/scripts/pagelayout/pagelayoutapi
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 pcap2john -> ../share/john/pcap2john.py
+lrwxrwxrwx  1 root root             6 Jul 28  2021 pdb2 -> pdb2.7
+lrwxrwxrwx  1 root root            23 Aug  1  2022 pdb2.7 -> ../lib/python2.7/pdb.py
+lrwxrwxrwx  1 root root             7 Apr  9 04:07 pdb3 -> pdb3.13
+lrwxrwxrwx  1 root root            24 Apr 10 17:38 pdb3.13 -> ../lib/python3.13/pdb.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 pdf2john -> ../share/john/pdf2john.pl
+lrwxrwxrwx  1 root root            60 Mar 14 17:58 pdfannotextractor -> ../share/texlive/texmf-dist/scripts/pax/pdfannotextractor.pl
+lrwxrwxrwx  1 root root            58 Mar 13 18:13 pdfatfi -> ../share/texlive/texmf-dist/scripts/attachfile2/pdfatfi.pl
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 pem2john -> ../share/john/pem2john.py
+-rwxr-xr-x  2 root root       3931280 Apr 12 11:34 perl5.40.1
+-rwxr-xr-x  1 root root         14752 Apr 12 11:34 perl5.40-x86_64-linux-gnu
+lrwxrwxrwx  1 root root            54 Mar 14 17:58 perltex -> ../share/texlive/texmf-dist/scripts/perltex/perltex.pl
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 pfx2john -> ../share/john/pfx2john.py
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_archivecleanup -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_basebackup -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pgbench -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_dump -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_dumpall -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_isready -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 pgpdisk2john -> ../share/john/pgpdisk2john.py
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 pgpsda2john -> ../share/john/pgpsda2john.py
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 pgpwde2john -> ../share/john/pgpwde2john.py
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_receivewal -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_receivexlog -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_recvlogical -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 pg_restore -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            12 Jun  7 10:22 phar8.4 -> phar8.4.phar
+-rwxr-xr-x  1 root root         15242 Jun  7 10:22 phar8.4.phar
+lrwxrwxrwx  1 root root            27 Apr 14 12:59 phar.phar -> /etc/alternatives/phar.phar
+lrwxrwxrwx  1 root root            12 Jun  7 10:22 phar.phar8.4 -> phar8.4.phar
+-rwxr-xr-x  1 root root       6066688 Jun  7 10:22 php8.4
+lrwxrwxrwx  1 root root            16 Mar 10 12:49 pidof -> ../sbin/killall5
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 pn2pdf -> ../share/texlive/texmf-dist/scripts/petri-nets/pn2pdf
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 pp-trace-19 -> ../lib/llvm-19/bin/pp-trace
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 prosody2john -> ../share/john/prosody2john.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 pse2john -> ../share/john/pse2john.py
+lrwxrwxrwx  1 root root            37 Sep 26  2024 psql -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 ps_token2john -> ../share/john/ps_token2john.py
+lrwxrwxrwx  1 root root             6 Feb 14 04:14 pstree.x11 -> pstree
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 pwsafe2john -> ../share/john/pwsafe2john.py
+lrwxrwxrwx  1 root root            31 Apr  9 04:07 py3versions -> ../share/python3/py3versions.py
+lrwxrwxrwx  1 root root             8 Jul 28  2021 pydoc2 -> pydoc2.7
+-rwxr-xr-x  1 root root            79 Aug  1  2022 pydoc2.7
+lrwxrwxrwx  1 root root             9 Apr  9 04:07 pydoc3 -> pydoc3.13
+-rwxr-xr-x  1 root root            80 Apr 10 17:38 pydoc3.13
+lrwxrwxrwx  1 root root            12 Jul 28  2021 pygettext2 -> pygettext2.7
+-rwxr-xr-x  1 root root         22082 Aug  1  2022 pygettext2.7
+lrwxrwxrwx  1 root root            13 Apr  9 04:07 pygettext3 -> pygettext3.13
+-rwxr-xr-x  1 root root         24439 Apr 10 17:38 pygettext3.13
+lrwxrwxrwx  1 root root            58 Mar 14 17:58 pygmentex -> ../share/texlive/texmf-dist/scripts/pygmentex/pygmentex.py
+lrwxrwxrwx  1 root root             9 Jul 28  2021 python2 -> python2.7
+-rwxr-xr-x  1 root root       3414584 Aug  1  2022 python2.7
+lrwxrwxrwx  1 root root            10 Apr  9 04:07 python3 -> python3.13
+-rwxr-xr-x  1 root root       6808048 Apr 10 17:38 python3.13
+lrwxrwxrwx  1 root root            34 Apr 10 17:38 python3.13-config -> x86_64-linux-gnu-python3.13-config
+lrwxrwxrwx  1 root root            17 Apr  9 04:07 python3-config -> python3.13-config
+lrwxrwxrwx  1 root root            29 Jul 28  2021 pyversions -> ../share/python/pyversions.py
+-rwxr-xr-x  1 root root          1034 Mar  2  2023 pyvnc.py
+lrwxrwxrwx  1 root root            23 Jun 19 18:08 qtpaths6 -> ../lib/qt6/bin/qtpaths6
+-rwxr-xr-x  1 root root           530 Apr 29 06:58 racc3.3
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 radius2john -> ../share/john/radius2john.py
+-rwxr-xr-x  1 root root           530 Apr 29 06:58 rake3.3
+-rwxr-xr-x  1 root root           524 Apr 29 06:58 rbs3.3
+lrwxrwxrwx  1 root root             7 Feb 12 04:18 rdbg -> rdbg3.3
+-rwxr-xr-x  1 root root           534 Apr 29 06:58 rdbg3.3
+lrwxrwxrwx  1 root root             7 Feb 12 04:18 rdoc -> rdoc3.3
+-rwxr-xr-x  1 root root           530 Apr 29 06:58 rdoc3.3
+lrwxrwxrwx  1 root root            36 Jun 14 16:51 reduce-chunk-list-19 -> ../lib/llvm-19/bin/reduce-chunk-list
+lrwxrwxrwx  1 root root            37 Sep 26  2024 reindexdb -> ../share/postgresql-common/pg_wrapper
+-rwxr-xr-x  1 root root         31112 May  9 18:54 rename.ul
+lrwxrwxrwx  1 root root            25 May 23 05:33 responder-BrowserListener -> ../share/responder/script
+lrwxrwxrwx  1 root root            25 May 23 05:33 responder-FindSQLSrv -> ../share/responder/script
+lrwxrwxrwx  1 root root            25 May 23 05:33 responder-Icmp-Redirect -> ../share/responder/script
+lrwxrwxrwx  1 root root            25 May 23 05:33 responder-MultiRelay -> ../share/responder/script
+lrwxrwxrwx  1 root root            25 May 23 05:33 responder-RunFinger -> ../share/responder/script
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 restic2john -> ../share/john/restic2john.py
+lrwxrwxrwx  1 root root             5 Feb 12 04:18 ri -> ri3.3
+-rwxr-xr-x  1 root root           526 Apr 29 06:58 ri3.3
+lrwxrwxrwx  1 root root             7 Feb 12 04:18 ruby -> ruby3.3
+-rwxr-xr-x  1 root root         14416 Apr 29 06:58 ruby3.3
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 rungs -> ../share/texlive/texmf-dist/scripts/texlive/rungs.lua
+lrwxrwxrwx  1 root root            25 Jun 14 16:51 sancov-19 -> ../lib/llvm-19/bin/sancov
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 sanstats-18 -> ../lib/llvm-18/bin/sanstats
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 sanstats-19 -> ../lib/llvm-19/bin/sanstats
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 sap2john -> ../share/john/sap2john.pl
+-rwxr-xr-x  1 root root        183256 Jan 15  2024 sar.sysstat
+lrwxrwxrwx  1 root root            43 Jun 14 16:51 scan-build-19 -> ../share/clang/scan-build-19/bin/scan-build
+lrwxrwxrwx  1 root root            32 Jun 14 16:51 scan-build-py-19 -> ../lib/llvm-19/bin/scan-build-py
+lrwxrwxrwx  1 root root            41 Jun 14 16:51 scan-view-19 -> ../share/clang/scan-view-19/bin/scan-view
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 sense2john -> ../share/john/sense2john.py
+lrwxrwxrwx  1 root root            28 Jun  3 00:23 signal2john -> ../share/john/signal2john.py
+lrwxrwxrwx  1 root root            55 Mar 13 18:13 simpdftex -> ../share/texlive/texmf-dist/scripts/simpdftex/simpdftex
+lrwxrwxrwx  1 root root            29 Jun  3 00:23 sipdump2john -> ../share/john/sipdump2john.py
+-rwxr-xr-x  1 root root          3113 Mar 31 16:50 socat-broker.sh
+-rwxr-xr-x  1 root root          8216 Mar 31 16:50 socat-chain.sh
+-rwxr-xr-x  1 root root          4490 Mar 31 16:50 socat-mux.sh
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 split-file-18 -> ../lib/llvm-18/bin/split-file
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 split-file-19 -> ../lib/llvm-19/bin/split-file
+lrwxrwxrwx  1 root root            60 Mar 14 17:58 splitindex -> ../share/texlive/texmf-dist/scripts/splitindex/splitindex.pl
+lrwxrwxrwx  1 root root            25 Apr  5 11:09 sqlmap -> ../share/sqlmap/sqlmap.py
+lrwxrwxrwx  1 root root            28 Apr  5 11:09 sqlmapapi -> ../share/sqlmap/sqlmapapi.py
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 ssh2john -> ../share/john/ssh2john.py
+lrwxrwxrwx  1 root root            26 Jun  3 00:23 sspr2john -> ../share/john/sspr2john.py
+lrwxrwxrwx  1 root root            32 Jun  3 00:23 staroffice2john -> ../share/john/staroffice2john.py
+lrwxrwxrwx  1 root root            14 Dec 29  2024 stream-im7.q16 -> magick-im7.q16
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 strip2john -> ../share/john/strip2john.py
+lrwxrwxrwx  1 root root            58 Mar 14 17:58 svn-multi -> ../share/texlive/texmf-dist/scripts/svn-multi/svn-multi.pl
+-rwxr-xr-x  1 root root           590 Apr 29 06:58 syntax_suggest3.3
+lrwxrwxrwx  1 root root             8 Mar  6 10:16 tclsh -> tclsh8.6
+-rwxr-xr-x  1 root root         14528 Jan  9 05:15 tclsh8.6
+-rwxr-xr-x  1 root root         14576 Jun  5 12:12 tdbbackup.tdbtools
+lrwxrwxrwx  1 root root            30 Jun  3 00:23 telegram2john -> ../share/john/telegram2john.py
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 texdoc -> ../share/texlive/texmf-dist/scripts/texdoc/texdoc.tlu
+lrwxrwxrwx  1 root root            56 Mar 13 18:13 texdoctk -> ../share/texlive/texmf-dist/scripts/texdoctk/texdoctk.pl
+lrwxrwxrwx  1 root root            57 Mar 14 17:58 textestvis -> ../share/texlive/texmf-dist/scripts/pagelayout/textestvis
+lrwxrwxrwx  1 root root            27 Jun  3 00:23 tezos2john -> ../share/john/tezos2john.py
+lrwxrwxrwx  1 root root            56 Mar 13 18:13 thumbpdf -> ../share/texlive/texmf-dist/scripts/thumbpdf/thumbpdf.pl
+lrwxrwxrwx  1 root root            55 Mar 13 18:13 tikztosvg -> ../share/texlive/texmf-dist/scripts/tikztosvg/tikztosvg
+lrwxrwxrwx  1 root root            52 Mar 13 18:13 tlmgr -> ../share/texlive/texmf-dist/scripts/texlive/tlmgr.pl
+-rwxr-xr-x  1 root root          2884 Sep 18  2024 traceproto.db
+lrwxrwxrwx  1 root root            13 Sep 18  2024 traceroute6.db -> traceroute.db
+-rwxr-xr-x  1 root root         77104 Sep 18  2024 traceroute.db
+lrwxrwxrwx  1 root root            31 Jun  3 00:23 truecrypt2john -> ../share/john/truecrypt2john.py
+-rwxr-xr-x  1 root root           554 Apr 29 06:58 typeprof3.3
+lrwxrwxrwx  1 root root             8 Feb 23 11:53 uncompress.real -> compress
+lrwxrwxrwx  1 root root            46 Jun 14 16:51 UnicodeNameMappingGenerator-18 -> ../lib/llvm-18/bin/UnicodeNameMappingGenerator
+lrwxrwxrwx  1 root root            46 Jun 14 16:51 UnicodeNameMappingGenerator-19 -> ../lib/llvm-19/bin/UnicodeNameMappingGenerator
+lrwxrwxrwx  1 root root            53 Mar 13 18:13 updmap -> ../share/texlive/texmf-dist/scripts/texlive/updmap.pl
+lrwxrwxrwx  1 root root            57 Mar 13 18:13 updmap-sys -> ../share/texlive/texmf-dist/scripts/texlive/updmap-sys.sh
+lrwxrwxrwx  1 root root            58 Mar 13 18:13 updmap-user -> ../share/texlive/texmf-dist/scripts/texlive/updmap-user.sh
+lrwxrwxrwx  1 root root            37 Sep 26  2024 vacuumdb -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            37 Sep 26  2024 vacuumlo -> ../share/postgresql-common/pg_wrapper
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 vdi2john -> ../share/john/vdi2john.pl
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 verify-uselistorder-18 -> ../lib/llvm-18/bin/verify-uselistorder
+lrwxrwxrwx  1 root root            38 Jun 14 16:51 verify-uselistorder-19 -> ../lib/llvm-19/bin/verify-uselistorder
+-rwxr-xr-x  1 root root       3921984 May 22 20:48 vim.basic
+-rwxr-xr-x  1 root root       1761704 May 22 20:48 vim.tiny
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 vmx2john -> ../share/john/vmx2john.py
+lrwxrwxrwx  1 root root            46 Mar 14 17:58 vpe -> ../share/texlive/texmf-dist/scripts/vpe/vpe.pl
+lrwxrwxrwx  1 root root            54 Mar 14 17:58 webquiz -> ../share/texlive/texmf-dist/scripts/webquiz/webquiz.py
+lrwxrwxrwx  1 root root            27 May 18  2024 weevely -> ../share/weevely/weevely.py
+-rwxr-xr-x  1 root root          1080 Jun  7 02:40 which.debianutils
+lrwxrwxrwx  1 root root             7 Mar  6 10:16 wish -> wish8.6
+-rwxr-xr-x  1 root root         14544 Jan  9 05:17 wish8.6
+lrwxrwxrwx  1 root root             1 Jan 24 04:02 X11 -> .
+lrwxrwxrwx  1 root root            23 Mar  3 16:01 x86_64-linux-gnu-ld -> x86_64-linux-gnu-ld.bfd
+-rwxr-xr-x  1 root root       1861256 Mar  3 16:01 x86_64-linux-gnu-ld.bfd
+-rwxr-xr-x  1 root root          3136 Apr 10 17:38 x86_64-linux-gnu-python3.13-config
+lrwxrwxrwx  1 root root            34 Apr  9 04:07 x86_64-linux-gnu-python3-config -> x86_64-linux-gnu-python3.13-config
+lrwxrwxrwx  1 root root            21 Mar 28 14:06 x86_64-w64-mingw32-ld.bfd -> x86_64-w64-mingw32-ld
+lrwxrwxrwx  1 root root            26 Mar 13 16:10 xdvi.bin -> /etc/alternatives/xdvi.bin
+-rwxr-xr-x  1 root root         30220 Jan 13 00:14 xfce4-screensaver-configure.py
+lrwxrwxrwx  1 root root            53 Mar 14 17:58 xhlatex -> ../share/texlive/texmf-dist/scripts/tex4ht/xhlatex.sh
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 yaml2obj-18 -> ../lib/llvm-18/bin/yaml2obj
+lrwxrwxrwx  1 root root            27 Jun 14 16:51 yaml2obj-19 -> ../lib/llvm-19/bin/yaml2obj
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 yaml-bench-18 -> ../lib/llvm-18/bin/yaml-bench
+lrwxrwxrwx  1 root root            29 Jun 14 16:51 yaml-bench-19 -> ../lib/llvm-19/bin/yaml-bench
+lrwxrwxrwx  1 root root            47 Mar 14 17:58 yplan -> ../share/texlive/texmf-dist/scripts/yplan/yplan
+lrwxrwxrwx  1 root root            25 Jun  3 00:23 zed2john -> ../share/john/zed2john.py
+[*] Checking /etc/passwd for suspicious root users...
+root:x:0:0:root:/root:/usr/bin/zsh
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon:/usr/lib/dhcpcd:/bin/false
+sshd:x:990:65534:sshd user:/run/sshd:/usr/sbin/nologin
+nm-openconnect:x:109:110:NetworkManager OpenConnect plugin:/var/lib/NetworkManager:/usr/sbin/nologin
+pulse:x:110:111:PulseAudio daemon:/run/pulse:/usr/sbin/nologin
+geoclue:x:117:120::/var/lib/geoclue:/usr/sbin/nologin
+cups-pk-helper:x:120:125:user for cups-pk-helper service:/nonexistent:/usr/sbin/nologin
+postgres:x:126:130:PostgreSQL administrator:/var/lib/postgresql:/bin/bash
+kali:x:1000:1000::/home/kali:/usr/bin/zsh
+snort:x:130:137:Snort IDS:/var/log/snort:/usr/sbin/nologin
+ghostuser:x:0:0::/home/ghostuser:/bin/bash
+[*] Checking running processes...
+kali      170684  0.0  0.0   6528  2276 pts/0    S+   21:29   0:00 grep --color=auto bash
+[*] chkrootkit output:
+ROOTDIR is `/'
+Checking `amd'...                                           not found
+Checking `basename'...                                      not infected
+Checking `biff'...                                          not found
+Checking `chfn'...                                          not infected
+Checking `chsh'...                                          not infected
+Checking `cron'...                                          not infected
+Checking `crontab'...                                       not infected
+Checking `date'...                                          not infected
+Checking `du'...                                            not infected
+Checking `dirname'...                                       not infected
+Checking `echo'...                                          not infected
+Checking `egrep'...                                         not infected
+Checking `env'...                                           not infected
+Checking `find'...                                          not infected
+Checking `fingerd'...                                       not found
+Checking `gpm'...                                           not found
+Checking `grep'...                                          not infected
+Checking `hdparm'...                                        not infected
+Checking `su'...                                            not infected
+Checking `ifconfig'...                                      not infected
+Checking `inetd'...                                         not tested
+Checking `inetdconf'...                                     not found
+Checking `identd'...                                        not found
+Checking `init'...                                          not infected
+Checking `killall'...                                       not infected
+Checking `ldsopreload'...                                   not infected
+Checking `login'...                                         not infected
+Checking `ls'...                                            not infected
+Checking `lsof'...                                          not infected
+Checking `mail'...                                          not infected
+Checking `mingetty'...                                      not found
+Checking `netstat'...                                       not infected
+Checking `named'...                                         not found
+Checking `passwd'...                                        not infected
+Checking `pidof'...                                         not infected
+Checking `pop2'...                                          not found
+Checking `pop3'...                                          not found
+Checking `ps'...                                            not infected
+Checking `pstree'...                                        not infected
+Checking `rpcinfo'...                                       not infected
+Checking `rlogind'...                                       not found
+Checking `rshd'...                                          not found
+Checking `slogin'...                                        not found
+Checking `sendmail'...                                      not infected
+Checking `sshd'...                                          not infected
+Checking `syslogd'...                                       not found
+Checking `tar'...                                           not infected
+Checking `tcpd'...                                          not found
+Checking `tcpdump'...                                       not infected
+Checking `top'...                                           not infected
+Checking `telnetd'...                                       not found
+Checking `timed'...                                         not found
+Checking `traceroute'...                                    not infected
+Checking `vdir'...                                          not infected
+Checking `w'...                                             not infected
+Checking `write'...                                         not found
+Checking `aliens'...                                        started
+Searching for suspicious files in /dev...                   not found
+Searching for known suspicious directories...               not found
+Searching for known suspicious files...                     not found
+Searching for sniffer's logs...                             not found
+Searching for HiDrootkit rootkit...                         not found
+Searching for t0rn rootkit...                               not found
+Searching for t0rn v8 (or variation)...                     not found
+Searching for Lion rootkit...                               not found
+Searching for RSHA rootkit...                               not found
+Searching for RH-Sharpe rootkit...                          not found
+Searching for Ambient (ark) rootkit...                      not found
+Searching for suspicious files and dirs...                  WARNING
+
+WARNING: The following suspicious files and directories were found:
+/usr/lib/python3/dist-packages/aiohttp/_websocket/.hash [From Debian package: python3-aiohttp]
+/usr/lib/python3/dist-packages/numpy/f2py/tests/src/f2cmap/.f2py_f2cmap [From Debian package: python3-numpy]
+/usr/lib/python3/dist-packages/numpy/f2py/tests/src/assumed_shape/.f2py_f2cmap [From Debian package: python3-numpy]
+/usr/lib/python3/dist-packages/docx/templates/default-docx-template/_rels/.rels [From Debian package: python3-docx]
+/usr/lib/python3/dist-packages/lsassy/resources/.gitkeep [From Debian package: python3-lsassy]
+/usr/lib/gophish/static/endpoint/.gitignore [From Debian package: gophish]
+/usr/lib/firmware/ath11k/QCN9074/hw1.0/.notice [From Debian package: firmware-atheros]
+/usr/lib/jvm/.java-1.21.0-openjdk-amd64.jinfo [From Debian package: openjdk-21-jre-headless:amd64]
+/usr/lib/llvm-19/build/utils/lit/tests/.coveragerc [From Debian package: llvm-19-tools]
+/usr/lib/hashcat/modules/.lock [From Debian package: hashcat]
+/usr/lib/llvm-18/build/utils/lit/tests/.coveragerc [From Debian package: llvm-18-tools]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/net-protocol/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/optparse/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/uri/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/net-http/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/tsort/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/molinillo/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/securerandom/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/timeout/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/vendor/resolv/.document [From Debian package: ruby-rubygems]
+/usr/lib/ruby/vendor_ruby/rubygems/ssl_certs/.document [From Debian package: ruby-rubygems]
+
+Searching for LPD Worm...                                   not found
+Searching for Ramen Worm rootkit...                         not found
+Searching for Maniac rootkit...                             not found
+Searching for RK17 rootkit...                               not found
+Searching for Ducoci rootkit...                             not found
+Searching for Adore Worm...                                 not found
+Searching for ShitC Worm...                                 not found
+Searching for Omega Worm...                                 not found
+Searching for Sadmind/IIS Worm...                           not found
+Searching for MonKit...                                     not found
+Searching for Showtee rootkit...                            not found
+Searching for OpticKit...                                   not found
+Searching for T.R.K...                                      not found
+Searching for Mithra rootkit...                             not found
+Searching for OBSD rootkit v1...                            not tested
+Searching for LOC rootkit...                                not found
+Searching for Romanian rootkit...                           not found
+Searching for HKRK rootkit...                               not found
+Searching for Suckit rootkit...                             not found
+Searching for Volc rootkit...                               not found
+Searching for Gold2 rootkit...                              not found
+Searching for TC2 rootkit...                                not found
+Searching for Anonoying rootkit...                          not found
+Searching for ZK rootkit...                                 not found
+Searching for ShKit rootkit...                              not found
+Searching for AjaKit rootkit...                             not found
+Searching for zaRwT rootkit...                              not found
+Searching for Madalin rootkit...                            not found
+Searching for Fu rootkit...                                 not found
+Searching for Kenga3 rootkit...                             not found
+Searching for ESRK rootkit...                               not found
+Searching for rootedoor...                                  not found
+Searching for ENYELKM rootkit...                            not found
+Searching for common ssh-scanners...                        not found
+Searching for Linux/Ebury 1.4 - Operation Windigo...        not tested
+Searching for Linux/Ebury 1.6...                            not found
+Searching for 64-bit Linux Rootkit...                       not found
+Searching for 64-bit Linux Rootkit modules...               not found
+Searching for Mumblehard...                                 not found
+Searching for Backdoor.Linux.Mokes.a...                     not found
+Searching for Malicious TinyDNS...                          not found
+Searching for Linux.Xor.DDoS...                             not found
+Searching for Linux.Proxy.1.0...                            not found
+Searching for CrossRAT...                                   not found
+Searching for Hidden Cobra...                               not found
+Searching for Rocke Miner rootkit...                        not found
+Searching for PWNLNX4 lkm rootkit...                        not found
+Searching for PWNLNX6 lkm rootkit...                        not found
+Searching for Umbreon lrk...                                not found
+Searching for Kinsing.a backdoor rootkit...                 not found
+Searching for RotaJakiro backdoor rootkit...                not found
+Searching for Syslogk LKM rootkit...                        not found
+Searching for Kovid LKM rootkit...                          not tested
+Searching for Tsunami DDoS Malware rootkit...               not found
+Searching for Linux BPF Door...                             not found
+Searching for suspect PHP files...                          not found
+Searching for zero-size shell history files in /root...     not found
+Searching for hardlinked shell history files in /root...    not found
+Checking `aliens'...                                        finished
+Checking `asp'...                                           not infected
+Checking `bindshell'...                                     not found
+Checking `lkm'...                                           started
+Searching for Adore LKM...                                  not tested
+Searching for sebek LKM (Adore based)...                    not tested
+Searching for knark LKM rootkit...                          not found
+Searching for for hidden processes with chkproc...          not found
+Searching for for hidden directories using chkdirs...       not found
+Checking `lkm'...                                           finished
+Checking `rexedcs'...                                       not found
+Checking `sniffer'...                                       WARNING
+
+WARNING: Output from ifpromisc:
+lo: not promisc and no packet sniffer sockets
+eth0: PACKET SNIFFER(/usr/sbin/NetworkManager[822])
+
+Checking `w55808'...                                        not found
+Checking `wted'...                                          not found
+Checking `scalper'...                                       not found
+Checking `slapper'...                                       not found
+Checking `z2'...                                            not found
+Checking `chkutmp'...                                       not tested
+Checking `OSX_RSPLUG'...                                    not tested
+[*] rkhunter output:
+[ Rootkit Hunter version 1.4.6 ]
+
+[0;35mChecking rkhunter data files...[0;39m
+  Checking file mirrors.dat[34C[ [0;32mSkipped[0;39m ]
+  Checking file programs_bad.dat[29C[ [1;31mUpdate failed[0;39m ]
+  Checking file backdoorports.dat[28C[ [1;31mUpdate failed[0;39m ]
+  Checking file suspscan.dat[33C[ [1;31mUpdate failed[0;39m ]
+  Checking file i18n versions[32C[ [1;31mUpdate failed[0;39m ]
+
+Please check the log file (/var/log/rkhunter.log)
+
+[ Rootkit Hunter version 1.4.6 ]
+
+[0;35mChecking system commands...[0;39m
+
+  Performing 'strings' command checks
+    Checking 'strings' command[31C[ [0;32mOK[0;39m ]
+
+  Performing 'shared libraries' checks
+    Checking for preloading variables[24C[ [0;32mNone found[0;39m ]
+    Checking for preloaded libraries[25C[ [0;32mNone found[0;39m ]
+    Checking LD_LIBRARY_PATH variable[24C[ [0;32mNot found[0;39m ]
+
+  Performing file properties checks
+    Checking for prerequisites[31C[ [0;32mOK[0;39m ]
+    /usr/sbin/adduser[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/chroot[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/cron[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/depmod[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/fsck[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/groupadd[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/groupdel[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/groupmod[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/grpck[42C[ [0;32mOK[0;39m ]
+    /usr/sbin/ifconfig[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/ifdown[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/ifup[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/init[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/insmod[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/ip[45C[ [0;32mOK[0;39m ]
+    /usr/sbin/lsmod[42C[ [0;32mOK[0;39m ]
+    /usr/sbin/modinfo[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/modprobe[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/nologin[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/pwck[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/rmmod[42C[ [0;32mOK[0;39m ]
+    /usr/sbin/route[42C[ [0;32mOK[0;39m ]
+    /usr/sbin/rsyslogd[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/runlevel[39C[ [0;32mOK[0;39m ]
+    /usr/sbin/sshd[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/sulogin[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/sysctl[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/useradd[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/userdel[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/usermod[40C[ [0;32mOK[0;39m ]
+    /usr/sbin/vipw[43C[ [0;32mOK[0;39m ]
+    /usr/sbin/unhide[41C[ [0;32mOK[0;39m ]
+    /usr/sbin/unhide-linux[35C[ [0;32mOK[0;39m ]
+    /usr/sbin/unhide-posix[35C[ [0;32mOK[0;39m ]
+    /usr/sbin/unhide-tcp[37C[ [0;32mOK[0;39m ]
+    /usr/bin/awk[45C[ [0;32mOK[0;39m ]
+    /usr/bin/basename[40C[ [0;32mOK[0;39m ]
+    /usr/bin/bash[44C[ [0;32mOK[0;39m ]
+    /usr/bin/cat[45C[ [0;32mOK[0;39m ]
+    /usr/bin/chattr[42C[ [0;32mOK[0;39m ]
+    /usr/bin/chmod[43C[ [0;32mOK[0;39m ]
+    /usr/bin/chown[43C[ [0;32mOK[0;39m ]
+    /usr/bin/cp[46C[ [0;32mOK[0;39m ]
+    /usr/bin/curl[44C[ [0;32mOK[0;39m ]
+    /usr/bin/cut[45C[ [0;32mOK[0;39m ]
+    /usr/bin/date[44C[ [0;32mOK[0;39m ]
+    /usr/bin/df[46C[ [0;32mOK[0;39m ]
+    /usr/bin/diff[44C[ [0;32mOK[0;39m ]
+    /usr/bin/dirname[41C[ [0;32mOK[0;39m ]
+    /usr/bin/dmesg[43C[ [0;32mOK[0;39m ]
+    /usr/bin/dpkg[44C[ [0;32mOK[0;39m ]
+    /usr/bin/dpkg-query[38C[ [0;32mOK[0;39m ]
+    /usr/bin/du[46C[ [0;32mOK[0;39m ]
+    /usr/bin/echo[44C[ [0;32mOK[0;39m ]
+    /usr/bin/egrep[43C[ [0;32mOK[0;39m ]
+    /usr/bin/env[45C[ [0;32mOK[0;39m ]
+    /usr/bin/fgrep[43C[ [0;32mOK[0;39m ]
+    /usr/bin/file[44C[ [0;32mOK[0;39m ]
+    /usr/bin/find[44C[ [0;32mOK[0;39m ]
+    /usr/bin/fuser[43C[ [0;32mOK[0;39m ]
+    /usr/bin/GET[45C[ [0;32mOK[0;39m ]
+    /usr/bin/grep[44C[ [0;32mOK[0;39m ]
+    /usr/bin/groups[42C[ [0;32mOK[0;39m ]
+    /usr/bin/head[44C[ [0;32mOK[0;39m ]
+    /usr/bin/id[46C[ [0;32mOK[0;39m ]
+    /usr/bin/ip[46C[ [0;32mOK[0;39m ]
+    /usr/bin/ipcs[44C[ [0;32mOK[0;39m ]
+    /usr/bin/kill[44C[ [0;32mOK[0;39m ]
+    /usr/bin/killall[41C[ [0;32mOK[0;39m ]
+    /usr/bin/last[44C[ [0;32mOK[0;39m ]
+    /usr/bin/ldd[45C[ [0;32mOK[0;39m ]
+    /usr/bin/less[44C[ [0;32mOK[0;39m ]
+    /usr/bin/locate[42C[ [0;32mOK[0;39m ]
+    /usr/bin/logger[42C[ [0;32mOK[0;39m ]
+    /usr/bin/login[43C[ [0;32mOK[0;39m ]
+    /usr/bin/ls[46C[ [0;32mOK[0;39m ]
+    /usr/bin/lsattr[42C[ [0;32mOK[0;39m ]
+    /usr/bin/lsmod[43C[ [0;32mOK[0;39m ]
+    /usr/bin/lsof[44C[ [0;32mOK[0;39m ]
+    /usr/bin/mail[44C[ [1;31mWarning[0;39m ]
+    /usr/bin/md5sum[42C[ [0;32mOK[0;39m ]
+    /usr/bin/mktemp[42C[ [0;32mOK[0;39m ]
+    /usr/bin/more[44C[ [0;32mOK[0;39m ]
+    /usr/bin/mount[43C[ [0;32mOK[0;39m ]
+    /usr/bin/mv[46C[ [0;32mOK[0;39m ]
+    /usr/bin/netstat[41C[ [0;32mOK[0;39m ]
+    /usr/bin/newgrp[42C[ [0;32mOK[0;39m ]
+    /usr/bin/passwd[42C[ [0;32mOK[0;39m ]
+    /usr/bin/perl[44C[ [0;32mOK[0;39m ]
+    /usr/bin/pgrep[43C[ [0;32mOK[0;39m ]
+    /usr/bin/ping[44C[ [0;32mOK[0;39m ]
+    /usr/bin/pkill[43C[ [0;32mOK[0;39m ]
+    /usr/bin/ps[46C[ [0;32mOK[0;39m ]
+    /usr/bin/pstree[42C[ [0;32mOK[0;39m ]
+    /usr/bin/pwd[45C[ [0;32mOK[0;39m ]
+    /usr/bin/readlink[40C[ [0;32mOK[0;39m ]
+    /usr/bin/rkhunter[40C[ [0;32mOK[0;39m ]
+    /usr/bin/rpm[45C[ [0;32mOK[0;39m ]
+    /usr/bin/runcon[42C[ [0;32mOK[0;39m ]
+    /usr/bin/sed[45C[ [0;32mOK[0;39m ]
+    /usr/bin/sh[46C[ [0;32mOK[0;39m ]
+    /usr/bin/sha1sum[41C[ [0;32mOK[0;39m ]
+    /usr/bin/sha224sum[39C[ [0;32mOK[0;39m ]
+    /usr/bin/sha256sum[39C[ [0;32mOK[0;39m ]
+    /usr/bin/sha384sum[39C[ [0;32mOK[0;39m ]
+    /usr/bin/sha512sum[39C[ [0;32mOK[0;39m ]
+    /usr/bin/size[44C[ [0;32mOK[0;39m ]
+    /usr/bin/sort[44C[ [0;32mOK[0;39m ]
+    /usr/bin/ssh[45C[ [0;32mOK[0;39m ]
+    /usr/bin/stat[44C[ [0;32mOK[0;39m ]
+    /usr/bin/strace[42C[ [0;32mOK[0;39m ]
+    /usr/bin/strings[41C[ [0;32mOK[0;39m ]
+    /usr/bin/su[46C[ [0;32mOK[0;39m ]
+    /usr/bin/sudo[44C[ [0;32mOK[0;39m ]
+    /usr/bin/tail[44C[ [0;32mOK[0;39m ]
+    /usr/bin/telnet[42C[ [0;32mOK[0;39m ]
+    /usr/bin/test[44C[ [0;32mOK[0;39m ]
+    /usr/bin/top[45C[ [0;32mOK[0;39m ]
+    /usr/bin/touch[43C[ [0;32mOK[0;39m ]
+    /usr/bin/tr[46C[ [0;32mOK[0;39m ]
+    /usr/bin/uname[43C[ [0;32mOK[0;39m ]
+    /usr/bin/uniq[44C[ [0;32mOK[0;39m ]
+    /usr/bin/users[43C[ [0;32mOK[0;39m ]
+    /usr/bin/vmstat[42C[ [0;32mOK[0;39m ]
+    /usr/bin/w[47C[ [0;32mOK[0;39m ]
+    /usr/bin/watch[43C[ [0;32mOK[0;39m ]
+    /usr/bin/wc[46C[ [0;32mOK[0;39m ]
+    /usr/bin/wget[44C[ [0;32mOK[0;39m ]
+    /usr/bin/whatis[42C[ [0;32mOK[0;39m ]
+    /usr/bin/whereis[41C[ [0;32mOK[0;39m ]
+    /usr/bin/which[43C[ [0;32mOK[0;39m ]
+    /usr/bin/who[45C[ [0;32mOK[0;39m ]
+    /usr/bin/whoami[42C[ [0;32mOK[0;39m ]
+    /usr/bin/numfmt[42C[ [0;32mOK[0;39m ]
+    /usr/bin/kmod[44C[ [0;32mOK[0;39m ]
+    /usr/bin/systemctl[39C[ [0;32mOK[0;39m ]
+    /usr/bin/gawk[44C[ [0;32mOK[0;39m ]
+    /usr/bin/lwp-request[37C[ [1;31mWarning[0;39m ]
+    /usr/bin/wtmpdb[42C[ [0;32mOK[0;39m ]
+    /usr/bin/plocate[41C[ [0;32mOK[0;39m ]
+    /usr/bin/bsd-mailx[39C[ [1;31mWarning[0;39m ]
+    /usr/bin/dash[44C[ [0;32mOK[0;39m ]
+    /usr/bin/x86_64-linux-gnu-size[27C[ [0;32mOK[0;39m ]
+    /usr/bin/x86_64-linux-gnu-strings[24C[ [0;32mOK[0;39m ]
+    /usr/bin/inetutils-telnet[32C[ [0;32mOK[0;39m ]
+    /usr/bin/which.debianutils[31C[ [0;32mOK[0;39m ]
+    /usr/lib/systemd/systemd[33C[ [0;32mOK[0;39m ]
+
+[0;35mChecking for rootkits...[0;39m
+
+  Performing check of known rootkit files and directories
+    55808 Trojan - Variant A[33C[ [0;32mNot found[0;39m ]
+    ADM Worm[49C[ [0;32mNot found[0;39m ]
+    AjaKit Rootkit[43C[ [0;32mNot found[0;39m ]
+    Adore Rootkit[44C[ [0;32mNot found[0;39m ]
+    aPa Kit[50C[ [0;32mNot found[0;39m ]
+    Apache Worm[46C[ [0;32mNot found[0;39m ]
+    Ambient (ark) Rootkit[36C[ [0;32mNot found[0;39m ]
+    Balaur Rootkit[43C[ [0;32mNot found[0;39m ]
+    BeastKit Rootkit[41C[ [0;32mNot found[0;39m ]
+    beX2 Rootkit[45C[ [0;32mNot found[0;39m ]
+    BOBKit Rootkit[43C[ [0;32mNot found[0;39m ]
+    cb Rootkit[47C[ [0;32mNot found[0;39m ]
+    CiNIK Worm (Slapper.B variant)[27C[ [0;32mNot found[0;39m ]
+    Danny-Boy's Abuse Kit[36C[ [0;32mNot found[0;39m ]
+    Devil RootKit[44C[ [0;32mNot found[0;39m ]
+    Diamorphine LKM[42C[ [0;32mNot found[0;39m ]
+    Dica-Kit Rootkit[41C[ [0;32mNot found[0;39m ]
+[*] rkhunter output:
+[ Rootkit Hunter version 1.4.6 ]
+
+Checking system commands...
+
+  Performing 'strings' command checks
+    Checking 'strings' command                               [ OK ]
+
+  Performing 'shared libraries' checks
+    Checking for preloading variables                        [ None found ]
+    Checking for preloaded libraries                         [ None found ]
+    Checking LD_LIBRARY_PATH variable                        [ Not found ]
+
+  Performing file properties checks
+    Checking for prerequisites                               [ OK ]
+    /usr/sbin/adduser                                        [ OK ]
+    /usr/sbin/chroot                                         [ OK ]
+    /usr/sbin/cron                                           [ OK ]
+    /usr/sbin/depmod                                         [ OK ]
+    /usr/sbin/fsck                                           [ OK ]
+    /usr/sbin/groupadd                                       [ OK ]
+    /usr/sbin/groupdel                                       [ OK ]
+    /usr/sbin/groupmod                                       [ OK ]
+    /usr/sbin/grpck                                          [ OK ]
+    /usr/sbin/ifconfig                                       [ OK ]
+    /usr/sbin/ifdown                                         [ OK ]
+    /usr/sbin/ifup                                           [ OK ]
+    /usr/sbin/init                                           [ OK ]
+    /usr/sbin/insmod                                         [ OK ]
+    /usr/sbin/ip                                             [ OK ]
+    /usr/sbin/lsmod                                          [ OK ]
+    /usr/sbin/modinfo                                        [ OK ]
+    /usr/sbin/modprobe                                       [ OK ]
+    /usr/sbin/nologin                                        [ OK ]
+    /usr/sbin/pwck                                           [ OK ]
+    /usr/sbin/rmmod                                          [ OK ]
+    /usr/sbin/route                                          [ OK ]
+    /usr/sbin/rsyslogd                                       [ OK ]
+    /usr/sbin/runlevel                                       [ OK ]
+    /usr/sbin/sshd                                           [ OK ]
+    /usr/sbin/sulogin                                        [ OK ]
+    /usr/sbin/sysctl                                         [ OK ]
+    /usr/sbin/useradd                                        [ OK ]
+    /usr/sbin/userdel                                        [ OK ]
+    /usr/sbin/usermod                                        [ OK ]
+    /usr/sbin/vipw                                           [ OK ]
+    /usr/sbin/unhide                                         [ OK ]
+    /usr/sbin/unhide-linux                                   [ OK ]
+    /usr/sbin/unhide-posix                                   [ OK ]
+    /usr/sbin/unhide-tcp                                     [ OK ]
+    /usr/bin/awk                                             [ OK ]
+    /usr/bin/basename                                        [ OK ]
+    /usr/bin/bash                                            [ OK ]
+    /usr/bin/cat                                             [ OK ]
+    /usr/bin/chattr                                          [ OK ]
+    /usr/bin/chmod                                           [ OK ]
+    /usr/bin/chown                                           [ OK ]
+    /usr/bin/cp                                              [ OK ]
+    /usr/bin/curl                                            [ OK ]
+    /usr/bin/cut                                             [ OK ]
+    /usr/bin/date                                            [ OK ]
+    /usr/bin/df                                              [ OK ]
+    /usr/bin/diff                                            [ OK ]
+    /usr/bin/dirname                                         [ OK ]
+    /usr/bin/dmesg                                           [ OK ]
+    /usr/bin/dpkg                                            [ OK ]
+    /usr/bin/dpkg-query                                      [ OK ]
+    /usr/bin/du                                              [ OK ]
+    /usr/bin/echo                                            [ OK ]
+    /usr/bin/egrep                                           [ OK ]
+    /usr/bin/env                                             [ OK ]
+    /usr/bin/fgrep                                           [ OK ]
+    /usr/bin/file                                            [ OK ]
+    /usr/bin/find                                            [ OK ]
+    /usr/bin/fuser                                           [ OK ]
+[ Rootkit Hunter version 1.4.6 ]
+
+Checking system commands...
+
+  Performing 'strings' command checks
+    Checking 'strings' command                               [ OK ]
+
+  Performing 'shared libraries' checks
+    Checking for preloading variables                        [ None found ]
+    Checking for preloaded libraries                         [ None found ]
+    Checking LD_LIBRARY_PATH variable                        [ Not found ]
+
+  Performing file properties checks
+    Checking for prerequisites                               [ OK ]
+    /usr/sbin/adduser                                        [ OK ]
+    /usr/sbin/chroot                                         [ OK ]
+    /usr/sbin/cron                                           [ OK ]
+    /usr/sbin/depmod                                         [ OK ]
+    /usr/sbin/fsck                                           [ OK ]
+    /usr/sbin/groupadd                                       [ OK ]
+    /usr/sbin/groupdel                                       [ OK ]
+    /usr/sbin/groupmod                                       [ OK ]
+    /usr/sbin/grpck                                          [ OK ]
+    /usr/sbin/ifconfig                                       [ OK ]
+    /usr/sbin/ifdown                                         [ OK ]
+    /usr/sbin/ifup                                           [ OK ]
+    /usr/sbin/init                                           [ OK ]
+    /usr/sbin/insmod                                         [ OK ]
+    /usr/sbin/ip                                             [ OK ]
+    /usr/sbin/lsmod                                          [ OK ]
+    /usr/sbin/modinfo                                        [ OK ]
+    /usr/sbin/modprobe                                       [ OK ]
+    /usr/sbin/nologin                                        [ OK ]
+    /usr/sbin/pwck                                           [ OK ]
+    /usr/sbin/rmmod                                          [ OK ]
+    /usr/sbin/route                                          [ OK ]
+    /usr/sbin/rsyslogd                                       [ OK ]
+    /usr/sbin/runlevel                                       [ OK ]
+    /usr/sbin/sshd                                           [ OK ]
+    /usr/sbin/sulogin                                        [ OK ]
+    /usr/sbin/sysctl                                         [ OK ]
+    /usr/sbin/useradd                                        [ OK ]
+    /usr/sbin/userdel                                        [ OK ]
+    /usr/sbin/usermod                                        [ OK ]
+    /usr/sbin/vipw                                           [ OK ]
+    /usr/sbin/unhide                                         [ OK ]
+    /usr/sbin/unhide-linux                                   [ OK ]
+    /usr/sbin/unhide-posix                                   [ OK ]
+    /usr/sbin/unhide-tcp                                     [ OK ]
+    /usr/bin/awk                                             [ OK ]
+    /usr/bin/basename                                        [ OK ]
+    /usr/bin/bash                                            [ OK ]
+    /usr/bin/cat                                             [ OK ]
+    /usr/bin/chattr                                          [ OK ]
+    /usr/bin/chmod                                           [ OK ]
+    /usr/bin/chown                                           [ OK ]
+    /usr/bin/cp                                              [ OK ]
+    /usr/bin/curl                                            [ OK ]
+    /usr/bin/cut                                             [ OK ]
+    /usr/bin/date                                            [ OK ]
+    /usr/bin/df                                              [ OK ]
+    /usr/bin/diff                                            [ OK ]
+    /usr/bin/dirname                                         [ OK ]
+    /usr/bin/dmesg                                           [ OK ]
+    /usr/bin/dpkg                                            [ OK ]
+    /usr/bin/dpkg-query                                      [ OK ]
+    /usr/bin/du                                              [ OK ]
+    /usr/bin/echo                                            [ OK ]
+    /usr/bin/egrep                                           [ OK ]
+    /usr/bin/env                                             [ OK ]
+    /usr/bin/fgrep                                           [ OK ]
+    /usr/bin/file                                            [ OK ]
+    /usr/bin/find                                            [ OK ]
+    /usr/bin/fuser                                           [ OK ]
+    /usr/bin/GET                                             [ OK ]
+    /usr/bin/grep                                            [ OK ]
+    /usr/bin/groups                                          [ OK ]
+    /usr/bin/head                                            [ OK ]
+    /usr/bin/id                                              [ OK ]
+    /usr/bin/ip                                              [ OK ]
+    /usr/bin/ipcs                                            [ OK ]
+    /usr/bin/kill                                            [ OK ]
+    /usr/bin/killall                                         [ OK ]
+    /usr/bin/last                                            [ OK ]
+    /usr/bin/ldd                                             [ OK ]
+    /usr/bin/less                                            [ OK ]
+    /usr/bin/locate                                          [ OK ]
+    /usr/bin/logger                                          [ OK ]
+    /usr/bin/login                                           [ OK ]
+    /usr/bin/ls                                              [ OK ]
+    /usr/bin/lsattr                                          [ OK ]
+    /usr/bin/lsmod                                           [ OK ]
+    /usr/bin/lsof                                            [ OK ]
+    /usr/bin/mail                                            [ OK ]
+    /usr/bin/md5sum                                          [ OK ]
+    /usr/bin/mktemp                                          [ OK ]
+    /usr/bin/more                                            [ OK ]
+    /usr/bin/mount                                           [ OK ]
+    /usr/bin/mv                                              [ OK ]
+    /usr/bin/netstat                                         [ OK ]
+    /usr/bin/newgrp                                          [ OK ]
+    /usr/bin/passwd                                          [ OK ]
+    /usr/bin/perl                                            [ OK ]
+    /usr/bin/pgrep                                           [ OK ]
+    /usr/bin/ping                                            [ OK ]
+    /usr/bin/pkill                                           [ OK ]
+    /usr/bin/ps                                              [ OK ]
+    /usr/bin/pstree                                          [ OK ]
+    /usr/bin/pwd                                             [ OK ]
+    /usr/bin/readlink                                        [ OK ]
+    /usr/bin/rkhunter                                        [ OK ]
+    /usr/bin/rpm                                             [ OK ]
+    /usr/bin/runcon                                          [ OK ]
+    /usr/bin/sed                                             [ OK ]
+    /usr/bin/sh                                              [ OK ]
+    /usr/bin/sha1sum                                         [ OK ]
+    /usr/bin/sha224sum                                       [ OK ]
+    /usr/bin/sha256sum                                       [ OK ]
+    /usr/bin/sha384sum                                       [ OK ]
+    /usr/bin/sha512sum                                       [ OK ]
+    /usr/bin/size                                            [ OK ]
+    /usr/bin/sort                                            [ OK ]
+    /usr/bin/ssh                                             [ OK ]
+    /usr/bin/stat                                            [ OK ]
+    /usr/bin/strace                                          [ OK ]
+    /usr/bin/strings                                         [ OK ]
+    /usr/bin/su                                              [ OK ]
+    /usr/bin/sudo                                            [ OK ]
+    /usr/bin/tail                                            [ OK ]
+    /usr/bin/telnet                                          [ OK ]
+    /usr/bin/test                                            [ OK ]
+    /usr/bin/top                                             [ OK ]
+    /usr/bin/touch                                           [ OK ]
+    /usr/bin/tr                                              [ OK ]
+    /usr/bin/uname                                           [ OK ]
+    /usr/bin/uniq                                            [ OK ]
+    /usr/bin/users                                           [ OK ]
+    /usr/bin/vmstat                                          [ OK ]
+    /usr/bin/w                                               [ OK ]
+    /usr/bin/watch                                           [ OK ]
+    /usr/bin/wc                                              [ OK ]
+    /usr/bin/wget                                            [ OK ]
+    /usr/bin/whatis                                          [ OK ]
+    /usr/bin/whereis                                         [ OK ]
+    /usr/bin/which                                           [ OK ]
+    /usr/bin/who                                             [ OK ]
+    /usr/bin/whoami                                          [ OK ]
+    /usr/bin/numfmt                                          [ OK ]
+    /usr/bin/kmod                                            [ OK ]
+    /usr/bin/systemctl                                       [ OK ]
+    /usr/bin/gawk                                            [ OK ]
+    /usr/bin/lwp-request                                     [ Warning ]
+    /usr/bin/wtmpdb                                          [ OK ]
+    /usr/bin/plocate                                         [ OK ]
+    /usr/bin/bsd-mailx                                       [ OK ]
+    /usr/bin/dash                                            [ OK ]
+    /usr/bin/x86_64-linux-gnu-size                           [ OK ]
+    /usr/bin/x86_64-linux-gnu-strings                        [ OK ]
+    /usr/bin/inetutils-telnet                                [ OK ]
+    /usr/bin/which.debianutils                               [ OK ]
+    /usr/lib/systemd/systemd                                 [ OK ]
+
+Checking for rootkits...
+
+  Performing check of known rootkit files and directories
+    55808 Trojan - Variant A                                 [ Not found ]
+    ADM Worm                                                 [ Not found ]
+    AjaKit Rootkit                                           [ Not found ]
+    Adore Rootkit                                            [ Not found ]
+    aPa Kit                                                  [ Not found ]
+    Apache Worm                                              [ Not found ]
+    Ambient (ark) Rootkit                                    [ Not found ]
+    Balaur Rootkit                                           [ Not found ]
+    BeastKit Rootkit                                         [ Not found ]
+    beX2 Rootkit                                             [ Not found ]
+    BOBKit Rootkit                                           [ Not found ]
+    cb Rootkit                                               [ Not found ]
+    CiNIK Worm (Slapper.B variant)                           [ Not found ]
+    Danny-Boy's Abuse Kit                                    [ Not found ]
+    Devil RootKit                                            [ Not found ]
+    Diamorphine LKM                                          [ Not found ]
+    Dica-Kit Rootkit                                         [ Not found ]
+    Dreams Rootkit                                           [ Not found ]
+    Duarawkz Rootkit                                         [ Not found ]
+    Ebury backdoor                                           [ Not found ]
+    Enye LKM                                                 [ Not found ]
+    Flea Linux Rootkit                                       [ Not found ]
+    Fu Rootkit                                               [ Not found ]
+    Fuck`it Rootkit                                          [ Not found ]
+    GasKit Rootkit                                           [ Not found ]
+    Heroin LKM                                               [ Not found ]
+    HjC Kit                                                  [ Not found ]
+    ignoKit Rootkit                                          [ Not found ]
+    IntoXonia-NG Rootkit                                     [ Not found ]
+    Irix Rootkit                                             [ Not found ]
+    Jynx Rootkit                                             [ Not found ]
+    Jynx2 Rootkit                                            [ Not found ]
+    KBeast Rootkit                                           [ Not found ]
+    Kitko Rootkit                                            [ Not found ]
+    Knark Rootkit                                            [ Not found ]
+    ld-linuxv.so Rootkit                                     [ Not found ]
+    Li0n Worm                                                [ Not found ]
+    Lockit / LJK2 Rootkit                                    [ Not found ]
+    Mokes backdoor                                           [ Not found ]
+    Mood-NT Rootkit                                          [ Not found ]
+    MRK Rootkit                                              [ Not found ]
+    Ni0 Rootkit                                              [ Not found ]
