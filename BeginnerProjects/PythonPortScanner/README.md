@@ -8,8 +8,7 @@ This project demonstrates how to build a simple **Port Scanner in Python** for i
 
 ## Step 1: Create Your Python Script
 
-![Step 0 Screenshot](\BeginnerProjects/)
-
+![Port Scanner Initialization](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonPortScanner/screenshots/step0.png)
 
 Save the following code as `port_scanner.py`:
 
@@ -30,26 +29,25 @@ for port in ports:
     s.close()
 ```
 
-![Step 1](\BeginnerProjects/)
-
+![Port Scanner Initialization](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonPortScanner/screenshots/step1.png)
 
 ---
 
-## Step 2: Run the Scanner
+## Step 2: 
+```
+Run the Scanner
 
 Make sure you are connected to a test network (e.g. using VMs or isolated lab).
 
 Run the scanner using:
 
-```bash
+
 python3 port_scanner.py
 ```
 
 Enter a target IP such as `192.168.1.1` or another local IP.
 
-
-
----
+![Port Scan Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonPortScanner/screenshots/step2.png)
 
 ## Step 3: Interpret Results
 
@@ -58,10 +56,6 @@ The output will list open ports based on the predefined list. This is useful for
 - Identifying exposed services
 - Mapping internal systems
 - Practicing basic scanning logic
-
-![Step 2](\BeginnerProjects/)
-
-
 ---
 
 ## Notes
