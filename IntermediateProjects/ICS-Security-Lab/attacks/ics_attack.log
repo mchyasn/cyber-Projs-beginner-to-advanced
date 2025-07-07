@@ -1,0 +1,9 @@
+[*] Attacker started...
+[*] Connecting to PLC at 127.0.0.1:502
+[*] Reading holding register 0x01
+[+] Register 0x01 value: 123
+[*] Writing 9999 to register 0x01
+[+] Write successful
+[*] Re-reading register 0x01
+[+] New value: 9999
+[*] Attack completed.

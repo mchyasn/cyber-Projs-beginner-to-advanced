@@ -1,0 +1,8 @@
+# Nmap scan to detect Modbus port (TCP/502)
+
+$ nmap -sS -p 502 127.0.0.1
+
+Starting Nmap 7.94 ( https://nmap.org )
+Nmap scan report for localhost (127.0.0.1)
+PORT    STATE SERVICE
+502/tcp open  modbus

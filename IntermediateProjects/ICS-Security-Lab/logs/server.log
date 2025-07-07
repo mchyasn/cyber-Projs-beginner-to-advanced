@@ -1,0 +1,6 @@
+[*] Modbus PLC Server started at 127.0.0.1:502
+[*] Accepting client connection...
+[*] Read request for register 0x01
+[*] Write request to register 0x01: value 9999
+[*] Read request for register 0x01
+[*] Connection closed by client.
