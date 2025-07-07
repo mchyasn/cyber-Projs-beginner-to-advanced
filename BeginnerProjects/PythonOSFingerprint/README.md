@@ -31,15 +31,12 @@ Step 1: Install Required Library
 
 pip install scapy  # Optional (not used in final script)
 
-![Step 1](\BeginnerProjects/)
-
+![OS Fingerprinting Scan](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonOSFingerprint/screenshots/step1.png)
 
 Step 2: Create Script
 
 nano os_fingerprint.py
 Paste this code:
-
-![Step 2](\BeginnerProjects/)
 
 python
 ```bash
@@ -92,13 +89,14 @@ if __name__ == "__main__":
 
     detect_os(sys.argv[1])
 ```
+![OS Detection Results](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonOSFingerprint/screenshots/step2.png)
 
 Step 3: Run the Tool
 
 python3 os_fingerprint.py 8.8.8.8
 Example Output
 
-![Step 3](\BeginnerProjects/)
+![Operating System Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonOSFingerprint/screenshots/step3.png)
 
 [*] Pinging 8.8.8.8 ...
 [+] Received TTL: 128
