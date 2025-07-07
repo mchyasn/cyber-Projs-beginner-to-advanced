@@ -1,0 +1,4 @@
+- Default credentials (`root` / empty password) were found in `/etc/passwd`, indicating insecure configuration.
+- Dropbear (lightweight SSH server) was used — no clear configuration hardening was found in `dropbear` startup scripts.
+- The firmware version is outdated (OpenWRT 18.06.9), which is no longer supported. Using this version poses a risk of known vulnerabilities.
+- No HTTPS enforcement or secure communication configs found in `/etc/config/uhttpd`.

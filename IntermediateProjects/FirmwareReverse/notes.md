@@ -1,0 +1,4 @@
+- Some symlinks in the extracted root filesystem pointed outside of the extraction directory. Binwalk automatically redirected those to `/dev/null` for safety.
+- The squashfs filesystem was successfully extracted from the LZMA-compressed firmware image.
+- Most binaries appear to be statically linked for embedded use. Manual inspection with `file` and `strings` was used.
+- This is a read-only analysis — no code was executed.

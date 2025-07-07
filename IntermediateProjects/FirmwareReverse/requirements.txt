@@ -1,0 +1,3 @@
+binwalk
+pyelftools  # For ELF binary analysis (binwalk dependency)
+requests    # In case of scripting extractions or downloads
