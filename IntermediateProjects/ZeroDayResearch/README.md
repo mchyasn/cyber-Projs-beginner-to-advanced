@@ -1,20 +1,18 @@
-# Save the final README.txt for the Zero-Day Vulnerability Research lab
-
-readme_text = """\
 Zero-Day Vulnerability Research Lab
 ===================================
 
 This lab simulates the methodology used by security researchers to identify, analyze, and document unknown (zero-day) software vulnerabilities in a controlled, ethical environment.
+.
 
 WARNING: This is a learning project. No real-world exploitation is performed.
 
 Lab Goals
----------
+```
 - Understand how zero-days are discovered
 - Use fuzzers and analysis tools (static and dynamic)
 - Safely document and handle findings
 - Build hands-on research skills for cybersecurity
-
+```
 Project Structure
 -----------------
 ZeroDayResearch/
@@ -28,28 +26,31 @@ ZeroDayResearch/
 └── tools.txt              # Installed tool list
 
 Tools Used
-----------
+```
 - afl++        – for fuzzing
 - valgrind     – for memory analysis
 - radare2      – for reverse engineering
 - gdb          – for debugging crashes
-
+```
 Step-by-Step Guide
-------------------
+```
 
 1. Create the folders:
 
    mkdir ZeroDayResearch && cd ZeroDayResearch
    mkdir fuzz_inputs logs screenshots
    touch README.md findings.md tools.txt
-
+```
 2. Install tools:
-
+```
    sudo apt update
    sudo apt install afl++ valgrind radare2 gdb
+```
+![Zero-Day Vulnerability Research](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/ZeroDayResearch/screenshots/0.png)
+![Zero-Day Vulnerability Research](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/ZeroDayResearch/screenshots/00.png)
 
 3. Create crashme.c:
-
+```
 #include <stdio.h>
 #include <string.h>
 
@@ -63,28 +64,33 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
+```
+![Zero-Day Vulnerability Research](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/ZeroDayResearch/screenshots/1.png)
 
 4. Compile with AFL++:
-
+```
    afl-clang-fast -o crashme crashme.c
-
+```
 5. Create input:
-
+```
    echo "test" > fuzz_inputs/sample.txt
-
+```
 6. Run AFL fuzzer:
-
+```
    afl-fuzz -i fuzz_inputs -o logs -- ./crashme @@
-
+```
 7. Observe logs, crashes, and record:
-
+```
    - logs/crashes/
    - Use gdb ./crashme logs/crashes/id:000001*
    - Document in findings.md
+```
+![Zero-Day Vulnerability Research](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/ZeroDayResearch/screenshots/2.png)
+![Zero-Day Vulnerability Research](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/ZeroDayResearch/screenshots/22.png)
 
 Secure Fix (Patch)
 ------------------
-
+```
 Replace in crashme.c:
 
     strcpy(buffer, argv[1]);
@@ -93,21 +99,14 @@ With:
 
     strncpy(buffer, argv[1], sizeof(buffer) - 1);
     buffer[sizeof(buffer) - 1] = '\\0';
-
+```
 Rebuild with:
-
+```
     afl-clang-fast -o crashme_fixed crashme.c
-
+```
 Educational Value
 -----------------
 - Demonstrates how fuzzers discover unsafe code
 - Practices binary triage and reverse engineering
 - Builds strong portfolio content
 """
-
-# Save it as README.txt
-readme_path = "/mnt/data/ZeroDayResearch_README.txt"
-with open(readme_path, "w") as f:
-    f.write(readme_text)
-
-readme_path
