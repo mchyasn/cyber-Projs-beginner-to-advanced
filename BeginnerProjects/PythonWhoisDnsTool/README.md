@@ -25,16 +25,14 @@ Step 1: Install Required Libraries
 ----------------------------------
 pip install python-whois dnspython
 
-![Step 0](\BeginnerProjects/)
-
+![WHOIS DNS Lookup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonWhoisDnsTool/screenshots/step0.png)
 
 Step 2: Create the Script
 -------------------------
 Create a file `whois_dns_tool.py` and paste the following:
 
-![Step 1](\BeginnerProjects/)
-
-
+![WHOIS DNS Lookup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonWhoisDnsTool/screenshots/step1.png)
+```
 import whois  
 import dns.resolver  
   
@@ -62,7 +60,7 @@ if __name__ == "__main__":
     domain = input("Enter domain: ")  
     get_whois_info(domain)  
     get_dns_info(domain)  
-
+```
 
 Step 3: Run the Tool
 --------------------
@@ -89,7 +87,7 @@ NS Records:
 ns1.google.com.  
 ns2.google.com.  
 ...
-![Step 2](\BeginnerProjects/)
+![WHOIS DNS Lookup](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/BeginnerProjects/PythonWhoisDnsTool/screenshots/step2.png)
 
 Requirements
 ------------
