@@ -1,0 +1,6 @@
+[1] Subdomain Scanner
+[2] Port Scanner
+[3] Directory Bruteforce
+Choose tool: Enter URL: [*] Brute-forcing directories on http://testphp.vulnweb.com
+[+] Found: http://testphp.vulnweb.com/# wordlist.txt (200)
+[+] Found: http://testphp.vulnweb.com/admin (200)

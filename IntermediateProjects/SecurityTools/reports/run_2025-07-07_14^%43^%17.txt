@@ -1,0 +1,4 @@
+[1] Subdomain Scanner
+[2] Port Scanner
+[3] Directory Bruteforce
+Choose tool: Enter IP: [*] Scanning ports on 127.0.0.1

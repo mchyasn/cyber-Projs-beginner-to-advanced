@@ -1,0 +1,6 @@
+# wordlist.txt
+admin
+login
+uploads
+dashboard
+api

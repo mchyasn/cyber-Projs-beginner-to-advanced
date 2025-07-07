@@ -1,0 +1,6 @@
+# subdomains.txt
+www
+mail
+dev
+admin
+test

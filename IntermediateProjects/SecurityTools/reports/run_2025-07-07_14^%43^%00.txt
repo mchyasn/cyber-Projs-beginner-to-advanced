@@ -1,0 +1,6 @@
+[1] Subdomain Scanner
+[2] Port Scanner
+[3] Directory Bruteforce
+Choose tool: Enter domain: [*] Scanning subdomains for netflix.com
+[+] Found: www.netflix.com
+[+] Found: mail.netflix.com
