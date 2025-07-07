@@ -1,0 +1,7 @@
+duration,protocol_type,src_bytes,dst_bytes,flag,label
+0,tcp,491,0,SF,normal
+0,tcp,146,0,SF,normal
+0,tcp,232,8153,SF,normal
+0,tcp,199,420,SF,normal
+0,tcp,300,1500,SF,malicious
+0,tcp,100,50,REJ,malicious
