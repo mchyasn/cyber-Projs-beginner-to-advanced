@@ -1,0 +1,6 @@
+What are kernel backdoors?
+
+How they differ from user-mode malware
+
+Common methods: LKM (Loadable Kernel Modules), system call hooking, hiding ps, netstat, ls, etc.
+

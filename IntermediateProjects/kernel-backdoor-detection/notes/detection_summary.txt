@@ -1,0 +1,14 @@
+[rkhunter Results - July 2025]
+
+- rkhunter scan completed successfully
+- No warnings or suspicious entries detected
+- Summary sections reported:
+    - File properties: OK
+    - Rootkit checks: 0 detected
+    - Suspicious files: 0
+- All applications and kernel module states appear normal
+
+Conclusion:
+- System appears clean based on rkhunter and chkrootkit
+- No current evidence of known kernel backdoors
+- Further manual inspection of modules and syscalls recommended for advanced analysis
