@@ -26,6 +26,7 @@ To demonstrate how Linux audit tools and custom scripts can be used to detect su
    sudo service auditd start
    sudo auditctl -s
    ```
+![Cloud Security Monitoring Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/cloud-security-monitor/screenshots/0.png)
 
 3. **Add audit rules**
    ```bash
@@ -42,6 +43,7 @@ To demonstrate how Linux audit tools and custom scripts can be used to detect su
    sudo augenrules --load
    sudo auditctl -l
    ```
+![Cloud Security Monitoring Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/cloud-security-monitor/screenshots/1.png)
 
 4. **Create and run the monitor script**
 
@@ -85,6 +87,8 @@ To demonstrate how Linux audit tools and custom scripts can be used to detect su
    ```
 
    You should see an alert printed by `monitor.py`.
+   
+![Cloud Security Monitoring Dashboard](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/cloud-security-monitor/screenshots/2.png)
 
 ## Disclaimer
 
