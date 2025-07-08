@@ -38,22 +38,14 @@ Example behavior:
    ```bash
    python3 attack-demo.py | tee data/output.txt
    ```
+![Side-Channel Attack Simulation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/side-channel-attacks/screenshots/0.png)
 
 3. **Parse the log:**
 
    ```bash
    python3 parse_log.py | tee data/parsed_output.txt
    ```
-
-## Screenshots
-
-All screenshots proving the project execution in Kali Linux are stored in the `screenshots/` directory and include:
-
-- Folder and file structure
-- Notes and documentation
-- Attack script code
-- Attack output
-- Parsed log output
+![Side-Channel Attack Simulation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/side-channel-attacks/screenshots/1.png)
 
 ## Environment
 
@@ -66,6 +58,4 @@ All screenshots proving the project execution in Kali Linux are stored in the `s
 This project is for educational purposes only. All demonstrations were conducted in a secure virtual environment. Do not use these techniques on real systems or networks.
 
 ## Author
-
-[Your Name or Handle]  
-[GitHub Profile]  
+# mchyasn
