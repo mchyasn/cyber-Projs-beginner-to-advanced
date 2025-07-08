@@ -30,3 +30,5 @@ This project focuses on detecting possible kernel-level backdoors and rootkits u
 
 No evidence of kernel-level backdoors or rootkits were detected using these tools. While no current threats were found, manual inspection and custom kernel analysis may be used in future work.
 
+![Kernel Backdoor Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/kernel-backdoor-detection/screenshots/2.png)
+![Kernel Backdoor Detection](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/kernel-backdoor-detection/screenshots/11.png)
