@@ -19,12 +19,14 @@ To create and insert a kernel module that hides a process with a specific PID (e
    ```bash
    sudo apt install linux-headers-$(uname -r) -y
    ```
+![Rootkit Behavior Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/rootkit-lab/screenshots/0.png)
 
 2. **Build the module**  
    ```bash
    make clean
    make
    ```
+![Rootkit Behavior Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/rootkit-lab/screenshots/3.png)
 
 3. **Run a test process to hide**  
    ```bash
@@ -37,6 +39,7 @@ To create and insert a kernel module that hides a process with a specific PID (e
    sudo insmod rk_hideproc.ko hide_pid=9999
    dmesg | tail
    ```
+![Rootkit Behavior Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/rootkit-lab/screenshots/4.png)
 
 5. **Check process visibility**  
    ```bash
@@ -50,11 +53,13 @@ To create and insert a kernel module that hides a process with a specific PID (e
    sudo rmmod rk_hideproc
    dmesg | tail
    ```
+![Rootkit Behavior Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/rootkit-lab/screenshots/2.png)
 
 7. **Verify the process reappears**  
    ```bash
    ps aux | grep 9999
    ```
+![Rootkit Behavior Analysis](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/rootkit-lab/screenshots/5.png)
 
 ## Disclaimer
 
