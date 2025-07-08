@@ -1,0 +1,6 @@
+Step-by-step password guessing:
+1. [+] Guessed so far: c
+2. [+] Guessed so far: cy
+3. [+] Guessed so far: cyb
+4. [+] Guessed so far: cybe
+5. [+] Guessed so far: cyber

@@ -1,0 +1,6 @@
+[+] Guessed so far: c
+[+] Guessed so far: cy
+[+] Guessed so far: cyb
+[+] Guessed so far: cybe
+[+] Guessed so far: cyber
+[✔] Final password guess: cyber
