@@ -1,0 +1,23 @@
+# access-policies.yaml
+
+users:
+  alice:
+    role: engineer
+    allowed_services:
+      - git-server
+      - issue-tracker
+
+  bob:
+    role: admin
+    allowed_services:
+      - git-server
+      - issue-tracker
+      - internal-dashboard
+      - audit-logs
+
+  carol:
+    role: intern
+    allowed_services:
+      - issue-tracker
+
+default_policy: deny

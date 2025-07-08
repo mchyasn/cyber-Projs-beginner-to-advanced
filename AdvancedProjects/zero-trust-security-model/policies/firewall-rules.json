@@ -1,0 +1,21 @@
+{
+  "rules": [
+    {
+      "source": "frontend",
+      "destination": "backend",
+      "port": 443,
+      "action": "allow"
+    },
+    {
+      "source": "admin-panel",
+      "destination": "db",
+      "port": 5432,
+      "action": "allow"
+    },
+    {
+      "source": "*",
+      "destination": "db",
+      "action": "deny"
+    }
+  ]
+}
