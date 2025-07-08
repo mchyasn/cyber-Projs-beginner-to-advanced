@@ -49,14 +49,9 @@ Expected:
 
 ## Screenshots
 
-### Applied iptables Rules
+![Custom Firewall Configuration](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/custom-firewall/screenshots/0.png)
 
-![rules-setup](screenshots/rules-setup.png)
+### Allowed Traffic (e.g. port 22) ### Blocked Traffic (e.g. port 21)
 
-### Allowed Traffic (e.g. port 22)
+![Custom Firewall Configuration](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/IntermediateProjects/custom-firewall/screenshots/1.png)
 
-![Allowed port](screenshots/rule-test-allow.png)
-
-### Blocked Traffic (e.g. port 21)
-
-![Blocked port](screenshots/rule-test-block.png)
