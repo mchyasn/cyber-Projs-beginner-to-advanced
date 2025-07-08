@@ -14,30 +14,30 @@ This project demonstrates the core components of a Zero Trust Security Model imp
 
 
 ## Components
-
+```
 ### Threat Model (`docs/threat-model.md`)
 Outlines Zero Trust assumptions and the threats this model mitigates, including lateral movement, insider threats, and device compromise.
-
+```
 ### Access Verification (`src/verify-access.py`)
 Validates users, devices, and IP addresses against trusted lists. Access is granted only if all parameters match trusted conditions.
-
+```
 ### Device Health Check (`src/health-check.sh`)
 Simulates endpoint trust evaluation:
 - Antivirus service running
 - System update status
 - Absence of known suspicious processes
-
+```
 ### Access Policies (`policies/access-policies.yaml`)
 Defines who can access which services based on role. Uses a default-deny approach.
-
+```
 ### Microsegmentation Rules (`policies/firewall-rules.json`)
 Logical rules to restrict service communication paths. Only authorized sources may access protected services like databases.
-
+```
 ### Setup Script (`setup/config-zero-trust.sh`)
 Simulates a complete Zero Trust posture by running health checks, identity verification, and policy applications in sequence.
 
-## Usage
-
+```
+```
 To simulate the Zero Trust model:
 
 ```bash
