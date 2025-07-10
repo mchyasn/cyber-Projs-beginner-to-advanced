@@ -52,10 +52,10 @@ You will be prompted to provide:
 
 Based on predefined access policies, access will be granted or denied.
 ## screenshots
-![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/zero-trust-security-model/screenshots/0.png)
-![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/zero-trust-security-model/screenshots/1.png)
-![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/zero-trust-security-model/screenshots/2.png)
-![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/AdvancedProjects/zero-trust-security-model/screenshots/22.png)
+![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/zero-trust-security-model/screenshots/0.png)
+![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/zero-trust-security-model/screenshots/1.png)
+![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/zero-trust-security-model/screenshots/2.png)
+![Zero Trust Architecture Implementation](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/zero-trust-security-model/screenshots/22.png)
 
 ## Requirements
 
