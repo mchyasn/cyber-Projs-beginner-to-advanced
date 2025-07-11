@@ -1,7 +1,7 @@
 # Attacking ICS Lab #1
 Hands-on ICS security labs from TryHackMe, including Attacking ICS #1 and #2. Exploring vulnerabilities in SCADA systems, Modbus protocol, and critical infrastructure security.
 
-![AltText](main.png)
+![AltText](screenshots/main.png)
 
 ## Key Tasks & Concepts
 ### Task 1: Introduction to OT/ICS
@@ -24,11 +24,11 @@ Scripts provided:
     discovery.py (for monitoring registers)
 
     attack_move_fill.py (for sending malicious commands)
-![AltText](ics5.png)
+![AltText](screenshots/ics5.png)
 
 <br>
 
-![AltText](ics4.png)
+![AltText](screenshots/ics4.png)
 
 ### Task 3: Simulated Plant Interaction
 
@@ -37,7 +37,7 @@ Observe 16 binary registers (0 or 1) controlling the plant’s behavior (e.g., c
 
 Static register (e.g., register 16) identifies non-changing components
 
-![AltText](ics3.png)
+![AltText](screenshots/ics3.png)
 
 ### Task 4/5: Attack Simulation
 
@@ -47,7 +47,7 @@ Manipulate registers to disrupt the production line using set_reg.py:
 
 - Stop conveyors to cause spills
     
-![AltText](ics6.png)
+![AltText](screenshots/ics6.png)
 
 # Attacking ICS #2
 
@@ -78,13 +78,13 @@ Modify attack_move_fill.py to:
 
     Close the outlet valve (write_register(3, 0)
 
-![AltText](ics7.png)
+![AltText](screenshots/ics7.png)
 
 <br> 
 
 After 60 seconds, access http://<MACHINE_IP>/flag1.txt
 
-![AltText](ics8.png)
+![AltText](screenshots/ics8.png)
 
 ### Task 2: Redirect Oil Flow
 
@@ -100,7 +100,7 @@ Configure registers to:
 
 Monitor PLC_OIL_PROCESSED (Register 7) until it reaches 2000
 
-![AltText](ics9.png)
+![AltText](screenshots/ics9.png)
 
 ### Simulation Tools:
 
@@ -119,26 +119,6 @@ Protocol Vulnerabilities:
 
 ### Physical Implications
 Attacks can cause spills, equipment damage, or production halts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
