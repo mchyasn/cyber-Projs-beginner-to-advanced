@@ -1,5 +1,4 @@
 # Fingerprint-Classification-System-Through-Modules
-Fingerprint classification system using fingerprint orientantion feature vectors obtained after passinf through different modules - Universidad Nacional de San Agustin (Arequipa - 2017).
 
 # Modules
 # Data Storage Module
