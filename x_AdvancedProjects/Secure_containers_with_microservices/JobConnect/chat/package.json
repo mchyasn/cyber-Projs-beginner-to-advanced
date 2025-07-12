@@ -1,0 +1,23 @@
+{
+  "name": "job-control",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "vite-node src/app.ts",
+    "test": "vitest --no-file-parallelism"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^5.0.1",
+    "reflect-metadata": "^0.2.2",
+    "socket.io": "^4.8.1",
+    "vitest": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "vite-node": "^3.0.2"
+  }
+}
