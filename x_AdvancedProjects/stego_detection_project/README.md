@@ -8,12 +8,13 @@ Detect hidden messages or files inside a sample JPEG image (`steg_1.jpg`) using 
 
 
 ## Tools Used
-
+```
 - **steghide** – Embed/extract hidden data in media files
 - **exiftool** – Extract image metadata
 - **binwalk** – Scan for embedded file signatures
 - **strings** – Extract printable characters from binaries
 - **ImageMagick** – Generate test images for local stego testing
+```
 
 ## How to Reproduce
 
@@ -23,7 +24,7 @@ Detect hidden messages or files inside a sample JPEG image (`steg_1.jpg`) using 
 sudo apt install -y imagemagick steghide exiftool binwalk
 mkdir -p samples
 convert -size 1024x768 xc:white samples/steg_1.jpg
-
+```
 2. Embed a Secret Message
 ```
 echo "Flag{Stego_Detection_Successful}" > secret_message.txt
@@ -46,7 +47,8 @@ binwalk samples/steg_1.jpg > scans/binwalk_steg1.log
 # Strings
 strings samples/steg_1.jpg > scans/strings_steg1.txt
 ```
-Results Summary
+### Results Summary
+```
 See findings.md for a detailed write-up.
 
 steghide successfully extracted the embedded flag
@@ -54,6 +56,14 @@ steghide successfully extracted the embedded flag
 exiftool, binwalk, and strings did not reveal obvious signs of steganography
 
 Demonstrates the importance of format-specific tools in detection
+```
 
-Author
-mchyasn | github.com/mchyasn
+## screeshots
+![Steganography Detection Tool](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/stego_detection_project/screenshots/0.png)
+![Steganography Detection Tool](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/stego_detection_project/screenshots/1.png)
+![Steganography Detection Tool](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/stego_detection_project/screenshots/2.png)
+![Steganography Detection Tool](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/stego_detection_project/screenshots/3.png)
+![Steganography Detection Tool](https://raw.githubusercontent.com/mchyasn/cyber-Projs-beginner-to-advanced/main/x_AdvancedProjects/stego_detection_project/screenshots/4.png)
+
+## Author
+### mchyasn | github.com/mchyasn
