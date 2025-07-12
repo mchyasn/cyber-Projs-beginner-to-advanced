@@ -11,6 +11,7 @@ User data is managed securely with Keycloak, and communication between services 
 ### For Customers
 
 - **Job Creation**
+
   - **Basic Form:** Enter a title, select a category, and provide a description.
   - **Advanced Form:** In addition to the basic fields, select a subcategory (filtered based on the selected category), upload images, and specify a budget.
   - **Smart Category/Subcategory Selection:**  
@@ -18,19 +19,26 @@ User data is managed securely with Keycloak, and communication between services 
     - Customers can search for categories and subcategories directly. If a search term doesn't match an existing entry, an **"Add"** button appears, allowing the user to add their term to their personal category/subcategory list.
 
 - **My Jobs Tab**
+  
   - View a list of created job requests.
   - Click the **Detail** button to see all job information, including images and access a real-time chat with the assigned company.
 
 ### For Companies
 
 - **Job Browsing and Assignment**
-  - **All Jobs Tab:**  
+  
+  - **All Jobs Tab:**
+ 
     - View all available jobs that have not yet been assigned.
     - Use a search feature to filter jobs by title, description, category, or subcategory.
-  - **Job Details:**  
+  
+  - **Job Details:**
+    
     - Click the **Detail** button to view job details (chat is not available in this view).
     - Click the **Assign** button to take on a job.
+
 - **My Jobs Tab**
+  
   - After assignment, view detailed job information and engage in real-time chat with the customer.
 
 ### Security and Logging
@@ -155,5 +163,5 @@ Additional containers include:
 ![Company All - Step 3](screenshots/company_all_3.png)
 ![Customer-Company Chat](screenshots/customer_company_chat.png)
 
-## Authors  
+## Author
 ### mchyasn
