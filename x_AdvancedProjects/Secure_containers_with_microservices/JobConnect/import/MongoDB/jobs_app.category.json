@@ -1,0 +1,24 @@
+[{
+  "_id": "cleaning",
+  "name": "Cleaning"
+},
+{
+  "_id": "graphic_design",
+  "name": "Graphic Design"
+},
+{
+  "_id": "consulting",
+  "name": "Consulting"
+},
+{
+  "_id": "it_services",
+  "name": "IT Services"
+},
+{
+  "_id": "construction",
+  "name": "Construction"
+},
+{
+  "_id": "transport",
+  "name": "Transport"
+}]

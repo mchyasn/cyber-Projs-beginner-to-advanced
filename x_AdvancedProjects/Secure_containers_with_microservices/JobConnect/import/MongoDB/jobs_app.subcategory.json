@@ -1,0 +1,1282 @@
+[{
+  "_id": "logo_cleaning",
+  "name": "Logo Cleaning and Restoration",
+  "categories": [
+    "cleaning",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "branding_consultation",
+  "name": "Branding Consultation for IT Firms",
+  "categories": [
+    "consulting",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "server_cleaning",
+  "name": "Server Cleaning and Maintenance",
+  "categories": [
+    "cleaning",
+    "it_services"
+  ]
+},
+{
+  "_id": "home_network_setup",
+  "name": "Home Network Setup Consultation",
+  "categories": [
+    "consulting",
+    "it_services"
+  ]
+},
+{
+  "_id": "construction_material_removal",
+  "name": "Construction Material Removal",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "financial_stability_check",
+  "name": "Financial Stability Check for Construction Projects",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "logo_redesign_for_builders",
+  "name": "Logo Redesign for Builders",
+  "categories": [
+    "graphic_design",
+    "construction"
+  ]
+},
+{
+  "_id": "eco_transport_network",
+  "name": "Eco Transport Network Design",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "logistics_optimization",
+  "name": "Logistics Optimization Consulting",
+  "categories": [
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "warehouse_software_clean",
+  "name": "Warehouse Software Clean and Optimization",
+  "categories": [
+    "cleaning",
+    "transport"
+  ]
+},
+{
+  "_id": "interior_cleaning_design",
+  "name": "Interior Cleaning Design for Offices",
+  "categories": [
+    "graphic_design",
+    "cleaning"
+  ]
+},
+{
+  "_id": "construction_blueprint_illustration",
+  "name": "Construction Blueprint Illustration",
+  "categories": [
+    "graphic_design",
+    "construction"
+  ]
+},
+{
+  "_id": "software_installation_guidance",
+  "name": "Software Installation Guidance for Transport",
+  "categories": [
+    "consulting",
+    "it_services"
+  ]
+},
+{
+  "_id": "vehicle_branding",
+  "name": "Vehicle Branding Design",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "smart_office_cleaning_consulting",
+  "name": "Smart Office Cleaning Consulting",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "consulting"
+  ]
+},
+{
+  "_id": "construction_site_illustration_cleanup",
+  "name": "Construction Site Illustration and Cleanup",
+  "categories": [
+    "graphic_design",
+    "construction",
+    "cleaning"
+  ]
+},
+{
+  "_id": "eco_transport_network_design_consulting",
+  "name": "Eco Transport Network Design and Consulting",
+  "categories": [
+    "transport",
+    "consulting",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "server_room_design_cleaning",
+  "name": "Server Room Design and Cleaning",
+  "categories": [
+    "it_services",
+    "graphic_design",
+    "cleaning"
+  ]
+},
+{
+  "_id": "financial_review_for_transport_projects",
+  "name": "Financial Review for Transport Projects",
+  "categories": [
+    "consulting",
+    "transport",
+    "construction"
+  ]
+},
+{
+  "_id": "brand_design_for_it_logistics",
+  "name": "Brand Design for IT Logistics",
+  "categories": [
+    "graphic_design",
+    "transport",
+    "it_services"
+  ]
+},
+{
+  "_id": "smart_home_network_setup",
+  "name": "Smart Home Network Setup and Maintenance",
+  "categories": [
+    "it_services",
+    "consulting",
+    "cleaning"
+  ]
+},
+{
+  "_id": "construction_material_eco_transport",
+  "name": "Construction Material Eco Transport Planning",
+  "categories": [
+    "construction",
+    "transport",
+    "consulting"
+  ]
+},
+{
+  "_id": "custom_logo_for_transport_and_construction",
+  "name": "Custom Logo for Transport and Construction Companies",
+  "categories": [
+    "graphic_design",
+    "construction",
+    "transport"
+  ]
+},
+{
+  "_id": "interior_cleaning_brand_consultation",
+  "name": "Interior Cleaning Brand Consultation",
+  "categories": [
+    "graphic_design",
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "specialized_mold_removal",
+  "name": "Specialized Mold Removal for Homes",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "ui_ux_transport",
+  "name": "UI/UX Design for Transport Platforms",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "startup_consulting_services",
+  "name": "Consulting Services for Startups",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "cloud_migration_support",
+  "name": "Cloud Migration Support for IT Systems",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "eco_building_design",
+  "name": "Eco-Friendly Building Design",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "freight_delivery_tracking",
+  "name": "Freight Delivery Tracking Solutions",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "anti_graffiti_coating",
+  "name": "Anti-Graffiti Coating Application",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "custom_illustrations",
+  "name": "Custom Illustrations for Branding",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "business_process_improvement",
+  "name": "Business Process Improvement Consulting",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "cybersecurity_audits",
+  "name": "Cybersecurity Audits for SMEs",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "modular_home_construction",
+  "name": "Modular Home Construction Services",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "urban_transport_analysis",
+  "name": "Urban Transport Analysis and Reporting",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "post_construction_debris_removal",
+  "name": "Post-Construction Debris Removal",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "rebranding_education_institutions",
+  "name": "Rebranding for Educational Institutions",
+  "categories": [
+    "graphic_design",
+    "consulting"
+  ]
+},
+{
+  "_id": "database_cleaning_services",
+  "name": "Database Cleaning and Optimization",
+  "categories": [
+    "it_services",
+    "cleaning"
+  ]
+},
+{
+  "_id": "architectural_consultation",
+  "name": "Architectural Consultation for Projects",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "fleet_graphic_design",
+  "name": "Fleet Graphic Design and Branding",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "remote_team_collaboration_tools",
+  "name": "Consultation on Remote Team Collaboration Tools",
+  "categories": [
+    "consulting",
+    "it_services"
+  ]
+},
+{
+  "_id": "construction_equipment_maintenance",
+  "name": "Construction Equipment Maintenance",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "smart_logistics_consulting",
+  "name": "Smart Logistics Consulting for Transport",
+  "categories": [
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "digital_blueprint_creation",
+  "name": "Digital Blueprint Creation for Construction",
+  "categories": [
+    "graphic_design",
+    "construction"
+  ]
+},
+{
+  "_id": "hvac_cleaning",
+  "name": "HVAC Cleaning and Maintenance",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "drone_delivery_network_design",
+  "name": "Drone Delivery Network Design",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "warehouse_workflow_optimization",
+  "name": "Warehouse Workflow Optimization Consulting",
+  "categories": [
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "carpet_deep_cleaning",
+  "name": "Carpet Deep Cleaning Services",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "logo_animation",
+  "name": "Logo Animation Services",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "career_coaching",
+  "name": "Career Coaching and Mentoring",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "server_monitoring",
+  "name": "24/7 Server Monitoring Services",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "roofing_services",
+  "name": "Roofing and Repair Services",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "last_mile_delivery",
+  "name": "Last Mile Delivery Services",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "window_cleaning",
+  "name": "Window Cleaning for High-Rises",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "packaging_design",
+  "name": "Packaging Design for Products",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "financial_audit",
+  "name": "Financial Audit and Analysis",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "mobile_app_development",
+  "name": "Mobile App Development Services",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "foundation_repair",
+  "name": "Foundation Repair Services",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "freight_shipping",
+  "name": "Freight Shipping Solutions",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "tile_grout_cleaning",
+  "name": "Tile and Grout Cleaning Services",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "custom_typography",
+  "name": "Custom Typography Design",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "business_strategy",
+  "name": "Business Strategy Consulting",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "data_backup_services",
+  "name": "Data Backup and Recovery",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "interior_painting",
+  "name": "Interior Painting Services",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "public_transport_analysis",
+  "name": "Public Transport Analysis and Optimization",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "commercial_cleaning",
+  "name": "Commercial Space Cleaning",
+  "categories": [
+    "cleaning"
+  ]
+},
+{
+  "_id": "social_media_graphics",
+  "name": "Social Media Graphics Design",
+  "categories": [
+    "graphic_design"
+  ]
+},
+{
+  "_id": "leadership_workshops",
+  "name": "Leadership Development Workshops",
+  "categories": [
+    "consulting"
+  ]
+},
+{
+  "_id": "network_security_audit",
+  "name": "Network Security Audit",
+  "categories": [
+    "it_services"
+  ]
+},
+{
+  "_id": "structural_engineering",
+  "name": "Structural Engineering for Projects",
+  "categories": [
+    "construction"
+  ]
+},
+{
+  "_id": "vehicle_routing",
+  "name": "Vehicle Routing Optimization",
+  "categories": [
+    "transport"
+  ]
+},
+{
+  "_id": "smart_city_cleaning_initiatives",
+  "name": "Smart City Cleaning Initiatives and Automation",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "construction",
+    "consulting"
+  ]
+},
+{
+  "_id": "branding_for_transport_infrastructure",
+  "name": "Branding for Transport Infrastructure Projects",
+  "categories": [
+    "graphic_design",
+    "transport",
+    "construction",
+    "consulting"
+  ]
+},
+{
+  "_id": "ai_based_maintenance",
+  "name": "AI-Based Maintenance for Construction and Transport",
+  "categories": [
+    "it_services",
+    "cleaning",
+    "construction",
+    "transport"
+  ]
+},
+{
+  "_id": "green_building_design_consultation",
+  "name": "Green Building Design Consultation and Implementation",
+  "categories": [
+    "consulting",
+    "construction",
+    "graphic_design",
+    "cleaning"
+  ]
+},
+{
+  "_id": "interactive_blueprint_visualization",
+  "name": "Interactive Blueprint Visualization Tools",
+  "categories": [
+    "graphic_design",
+    "it_services",
+    "construction",
+    "consulting"
+  ]
+},
+{
+  "_id": "urban_logistics_network_planning",
+  "name": "Urban Logistics Network Planning and Branding",
+  "categories": [
+    "transport",
+    "it_services",
+    "consulting",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "fleet_maintenance_and_rebranding",
+  "name": "Fleet Maintenance and Rebranding Solutions",
+  "categories": [
+    "cleaning",
+    "transport",
+    "graphic_design",
+    "consulting"
+  ]
+},
+{
+  "_id": "construction_management_software",
+  "name": "Construction Management Software Solutions",
+  "categories": [
+    "it_services",
+    "construction",
+    "consulting",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "smart_transport_hub_cleaning",
+  "name": "Smart Transport Hub Cleaning and Optimization",
+  "categories": [
+    "cleaning",
+    "transport",
+    "it_services",
+    "consulting"
+  ]
+},
+{
+  "_id": "eco_friendly_packaging_and_transport",
+  "name": "Eco-Friendly Packaging and Transport Design",
+  "categories": [
+    "graphic_design",
+    "transport",
+    "construction",
+    "it_services"
+  ]
+},
+{
+  "_id": "sustainable_construction_consulting",
+  "name": "Sustainable Construction Consulting",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "digital_billboard_cleaning",
+  "name": "Digital Billboard Cleaning and Maintenance",
+  "categories": [
+    "cleaning",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "iot_fleet_management",
+  "name": "IoT Fleet Management Solutions",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "virtual_office_cleaning_planning",
+  "name": "Virtual Office Cleaning Planning",
+  "categories": [
+    "cleaning",
+    "it_services"
+  ]
+},
+{
+  "_id": "retail_branding_transport",
+  "name": "Retail Branding for Transport Hubs",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "ai_construction_safety",
+  "name": "AI-Based Construction Safety Analysis",
+  "categories": [
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "hazardous_material_removal",
+  "name": "Hazardous Material Removal Consultation",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "ar_construction_preview",
+  "name": "AR Construction Project Preview",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "portable_sanitation_solutions",
+  "name": "Portable Sanitation Solutions for Sites",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "blockchain_supply_chain",
+  "name": "Blockchain Supply Chain Solutions",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "historic_building_restoration",
+  "name": "Historic Building Restoration Consulting",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "digital_twin_cleaning_sim",
+  "name": "Digital Twin Cleaning Simulations",
+  "categories": [
+    "cleaning",
+    "it_services"
+  ]
+},
+{
+  "_id": "construction_waste_recycling",
+  "name": "Construction Waste Recycling Planning",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "intermodal_transport_branding",
+  "name": "Intermodal Transport Branding Packages",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "5g_network_construction",
+  "name": "5G Network Construction Support",
+  "categories": [
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "crisis_cleanup_coordination",
+  "name": "Crisis Cleanup Coordination Services",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "vr_architecture_rendering",
+  "name": "VR Architecture Rendering Services",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "autonomous_vehicle_software",
+  "name": "Autonomous Vehicle Software Integration",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "green_cleaning_certification",
+  "name": "Green Cleaning Certification Consulting",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "construction_site_signage",
+  "name": "Construction Site Safety Signage Design",
+  "categories": [
+    "graphic_design",
+    "construction"
+  ]
+},
+{
+  "_id": "data_center_thermal_management",
+  "name": "Data Center Thermal Management",
+  "categories": [
+    "it_services",
+    "consulting"
+  ]
+},
+{
+  "_id": "marine_transport_branding",
+  "name": "Marine Transport Branding Solutions",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "robotic_cleaning_systems",
+  "name": "Robotic Cleaning Systems Integration",
+  "categories": [
+    "cleaning",
+    "it_services"
+  ]
+},
+{
+  "_id": "modular_office_construction",
+  "name": "Modular Office Construction Consulting",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "satellite_logistics_tracking",
+  "name": "Satellite Logistics Tracking Systems",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "biophilic_design_cleaning",
+  "name": "Biophilic Design Cleaning Solutions",
+  "categories": [
+    "cleaning",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "construction_risk_assessment",
+  "name": "Construction Risk Assessment Services",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "smart_highway_design",
+  "name": "Smart Highway Design and Implementation",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "art_restoration_cleaning",
+  "name": "Art Restoration and Cleaning Services",
+  "categories": [
+    "cleaning",
+    "graphic_design"
+  ]
+},
+{
+  "_id": "telematics_fleet_analysis",
+  "name": "Telematics Fleet Performance Analysis",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "disaster_recovery_cleaning",
+  "name": "Disaster Recovery Cleaning Coordination",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "construction_drone_mapping",
+  "name": "Construction Site Drone Mapping Services",
+  "categories": [
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "multi_modal_transit_design",
+  "name": "Multi-Modal Transit System Design",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "ai_powered_waste_management",
+  "name": "AI-Powered Waste Management Systems",
+  "categories": [
+    "it_services",
+    "cleaning"
+  ]
+},
+{
+  "_id": "green_transport_branding",
+  "name": "Green Transport Branding Packages",
+  "categories": [
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "retrofit_cleaning_solutions",
+  "name": "Retrofit Cleaning Solutions for Old Buildings",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "supply_chain_visualization",
+  "name": "Supply Chain Visualization Tools",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "construction_noise_control",
+  "name": "Construction Noise Control Consulting",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "automated_vehicle_wash_design",
+  "name": "Automated Vehicle Wash System Design",
+  "categories": [
+    "cleaning",
+    "transport"
+  ]
+},
+{
+  "_id": "3d_printed_construction",
+  "name": "3D-Printed Construction Consulting",
+  "categories": [
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "digital_wayfinding_systems",
+  "name": "Digital Wayfinding System Design",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "cold_chain_logistics",
+  "name": "Cold Chain Logistics Optimization",
+  "categories": [
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "historical_site_cleaning",
+  "name": "Historical Site Cleaning and Preservation",
+  "categories": [
+    "cleaning",
+    "construction"
+  ]
+},
+{
+  "_id": "transit_app_interface",
+  "name": "Transit App Interface Design Services",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "construction_cam_software",
+  "name": "Construction CAM Software Solutions",
+  "categories": [
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "aerospace_cleaning_standards",
+  "name": "Aerospace Cleaning Standards Consultation",
+  "categories": [
+    "cleaning",
+    "consulting"
+  ]
+},
+{
+  "_id": "smart_port_design",
+  "name": "Smart Port Design and Implementation",
+  "categories": [
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "modular_clean_room",
+  "name": "Modular Clean Room Construction",
+  "categories": [
+    "construction",
+    "cleaning"
+  ]
+},
+{
+  "_id": "construction_site_ai_monitoring",
+  "name": "Construction Site AI Monitoring Systems",
+  "categories": [
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "zero_waste_transport",
+  "name": "Zero-Waste Transport System Design",
+  "categories": [
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "holographic_construction_models",
+  "name": "Holographic Construction Model Design",
+  "categories": [
+    "graphic_design",
+    "it_services"
+  ]
+},
+{
+  "_id": "vehicle_wrap_cleaning_design",
+  "name": "Vehicle Wrap Design and Deep Cleaning",
+  "categories": [
+    "cleaning",
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "post_construction_cleanup_planning",
+  "name": "Post-Construction Cleanup Strategy Consulting",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "sustainable_fleet_cleaning",
+  "name": "Sustainable Fleet Cleaning Consultation",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "ai_construction_site_cleaning",
+  "name": "AI-Driven Construction Site Cleaning Systems",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "material_transport_cleanup",
+  "name": "Construction Material Transport Debris Cleanup",
+  "categories": [
+    "cleaning",
+    "construction",
+    "transport"
+  ]
+},
+{
+  "_id": "digital_brand_identity_consulting",
+  "name": "Digital Brand Identity Strategy Consulting",
+  "categories": [
+    "graphic_design",
+    "consulting",
+    "it_services"
+  ]
+},
+{
+  "_id": "architectural_visualization_consult",
+  "name": "Architectural 3D Visualization Consulting",
+  "categories": [
+    "graphic_design",
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "vr_construction_modeling",
+  "name": "VR Construction Modeling Software Solutions",
+  "categories": [
+    "graphic_design",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "construction_tech_integration",
+  "name": "Construction Tech Integration Consulting",
+  "categories": [
+    "consulting",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "transport_software_audit",
+  "name": "Transportation Software Audit and Optimization",
+  "categories": [
+    "consulting",
+    "it_services",
+    "transport"
+  ]
+},
+{
+  "_id": "logistics_construction_software",
+  "name": "Construction Logistics Management Software",
+  "categories": [
+    "it_services",
+    "construction",
+    "transport"
+  ]
+},
+{
+  "_id": "transit_hub_branding_maintenance",
+  "name": "Transit Hub Branding and Sanitization Systems",
+  "categories": [
+    "cleaning",
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "industrial_equipment_cleaning_consult",
+  "name": "Industrial Equipment Cleaning Consultation",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "green_shipping_cleaning",
+  "name": "Eco-Friendly Shipping Container Cleaning Solutions",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "robotic_construction_cleaning",
+  "name": "Robotic Construction Site Cleaning Automation",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "bridge_deck_cleaning",
+  "name": "Bridge Deck Cleaning and Preservation Planning",
+  "categories": [
+    "cleaning",
+    "construction",
+    "transport"
+  ]
+},
+{
+  "_id": "branded_cleaning_kits",
+  "name": "Branded Cleaning Kits for Transport Companies",
+  "categories": [
+    "cleaning",
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "modular_facility_cleaning",
+  "name": "Modular Facility Cleaning System Design",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "tunnel_ventilation_cleaning",
+  "name": "Tunnel Ventilation System Cleaning Analysis",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "transport"
+  ]
+},
+{
+  "_id": "smart_restroom_construction",
+  "name": "Smart Restroom Construction and Hygiene Systems",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "construction"
+  ]
+},
+{
+  "_id": "cargo_ship_branding_cleaning",
+  "name": "Cargo Ship Branding and Hull Cleaning Services",
+  "categories": [
+    "cleaning",
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "disaster_zone_cleanup_planning",
+  "name": "Disaster Zone Cleanup Coordination Consulting",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "railway_graffiti_removal",
+  "name": "Railway Graffiti Removal and Art Replacement",
+  "categories": [
+    "cleaning",
+    "graphic_design",
+    "transport"
+  ]
+},
+{
+  "_id": "construction_dust_control",
+  "name": "Construction Site Dust Control Consultation",
+  "categories": [
+    "cleaning",
+    "consulting",
+    "construction"
+  ]
+},
+{
+  "_id": "autonomous_cleaning_vehicles",
+  "name": "Autonomous Cleaning Vehicle Fleet Management",
+  "categories": [
+    "cleaning",
+    "it_services",
+    "transport"
+  ]
+}]
