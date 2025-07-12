@@ -1,0 +1,321 @@
+openapi: 3.0.3
+info:
+  title: Job Platform API
+  version: 1.0.0
+  description: API documentation for Job Control and Images microservices
+servers:
+  - url: http://localhost:3000
+    description: Job-control microservice
+  - url: http://localhost:3002
+    description: Images microservice
+
+tags:
+  - name: Job-control
+    description: Job management endpoints
+  - name: Images
+    description: Image handling endpoints
+
+paths:
+  /categories:
+    get:
+      tags: [Job-control]
+      summary: Get all categories
+      security:
+        - oauth2: [CUSTOMER]
+      responses:
+        '200':
+          description: List of categories
+    post:
+      tags: [Job-control]
+      summary: Get subcategories
+      security:
+        - oauth2: [CUSTOMER]
+      responses:
+        '200':
+          description: List of subcategories
+
+  /jobs/company:
+    get:
+      tags: [Job-control]
+      summary: Get jobs by company
+      security:
+        - oauth2: [COMPANY]
+      responses:
+        '200':
+          description: List of company's jobs
+
+  /jobs/customer:
+    get:
+      tags: [Job-control]
+      summary: Get jobs by customer
+      security:
+        - oauth2: [CUSTOMER]
+      responses:
+        '200':
+          description: List of customer's jobs
+
+  /jobs:
+    get:
+      tags: [Job-control]
+      summary: Get all waiting jobs
+      security:
+        - oauth2: [COMPANY]
+      responses:
+        '200':
+          description: List of waiting jobs
+    post:
+      tags: [Job-control]
+      summary: Create new job
+      security:
+        - oauth2: [CUSTOMER]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobDto'
+      responses:
+        '201':
+          description: Job created
+
+  /jobs/assign/{id}:
+    put:
+      tags: [Job-control]
+      summary: Assign company to job
+      security:
+        - oauth2: [COMPANY]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Assignment successful
+
+  /jobs/unassign/{id}:
+    put:
+      tags: [Job-control]
+      summary: Unassign company from job
+      security:
+        - oauth2: [COMPANY]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Unassignment successful
+
+  /jobs/{id}:
+    get:
+      tags: [Job-control]
+      summary: Get job by ID
+      security:
+        - oauth2: [COMPANY, CUSTOMER]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Job details
+        '404':
+          description: Job not found
+    put:
+      tags: [Job-control]
+      summary: Update job
+      security:
+        - oauth2: [CUSTOMER]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JobDto'
+      responses:
+        '202':
+          description: Job updated
+    delete:
+      tags: [Job-control]
+      summary: Delete job
+      security:
+        - oauth2: [CUSTOMER]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Job deleted
+
+  /jobs/search:
+    post:
+      tags: [Job-control]
+      summary: Search jobs
+      security:
+        - oauth2: [COMPANY]
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SearchDto'
+      responses:
+        '200':
+          description: Search results
+
+  /image/{id}:
+    get:
+      tags: [Images]
+      summary: Get images for job
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of image URLs
+        '404':
+          description: No images found
+
+  /image:
+    post:
+      tags: [Images]
+      summary: Upload images
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                photos:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+      responses:
+        '200':
+          description: Files uploaded successfully
+
+components:
+  schemas:
+    SearchDto:
+      type: object
+      properties:
+        text:
+          type: string
+          minLength: 2
+          maxLength: 50
+          example: "web development"
+        fields:
+          type: array
+          items:
+            type: string
+            minLength: 1
+          minItems: 1
+          example: ["title", "description"]
+      required:
+        - text
+        - fields
+
+    CategoryDto:
+      type: object
+      properties:
+        categories:
+          type: array
+          items:
+            type: string
+            minLength: 1
+          minItems: 1
+          example: ["IT", "Construction"]
+      required:
+        - categories
+
+    UploadDto:
+      type: object
+      properties:
+        jobId:
+          type: string
+          example: "507f1f77bcf86cd799439011"
+      required:
+        - jobId
+
+    IdParam:
+      type: object
+      properties:
+        id:
+          type: string
+          minLength: 24
+          maxLength: 24
+          example: "507f1f77bcf86cd799439011"
+      required:
+        - id
+
+    JobDto:
+      type: object
+      properties:
+        state:
+          type: string
+          example: "waiting"
+        customerEmail:
+          type: string
+          format: email
+          example: "customer@example.com"
+        companyEmail:
+          type: string
+          format: email
+          nullable: true
+          example: "company@example.com"
+        title:
+          type: string
+          minLength: 3
+          maxLength: 50
+          example: "Website Development"
+        description:
+          type: string
+          minLength: 3
+          maxLength: 5000
+          example: "Need a responsive website built with React"
+        categories:
+          type: array
+          items:
+            type: string
+          minItems: 1
+          example: ["IT", "Web Development"]
+        subcategories:
+          type: array
+          items:
+            type: string
+          nullable: true
+          example: ["Frontend", "React"]
+        images:
+          type: array
+          items:
+            type: string
+            format: binary
+          nullable: true
+        budget:
+          type: number
+          minimum: 0
+          exclusiveMinimum: true
+          nullable: true
+          example: 1500
+      required:
+        - state
+        - customerEmail
+        - title
+        - description
+        - categories

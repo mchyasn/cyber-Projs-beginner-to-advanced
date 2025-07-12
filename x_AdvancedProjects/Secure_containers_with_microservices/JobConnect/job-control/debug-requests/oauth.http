@@ -1,0 +1,19 @@
+# ==== Keycloak OAuth Demo ====
+
+# --- Authorization Code Grant ---
+
+# 1. Redirect user to login page (open in browser, not here headless)
+# http://localhost:8091/realms/JOBS-APP/protocol/openid-connect/auth?response_type=code&client_id=web-app&redirect_uri=http://localhost:5173/login-callback
+
+# 2. User logs in by providing username and password directly to Keycloak
+
+# 3. Keycloak redirects user back to client's URL with authorization code in URL
+
+# 4. Client sends POST request to Keycloak to exchange authorization code for access token
+POST http://localhost:8091/realms/JOBS-APP/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=authorization_code &
+client_id=web-app &
+redirect_uri=http://localhost:5173/login-callback &
+code=4013583c-3505-454d-8a4b-019e71581606.bbbf8c68-2ffb-4e02-ab7b-96dd6d2fed91.d09cf184-5319-45a9-aa7b-f85d651a51a4
