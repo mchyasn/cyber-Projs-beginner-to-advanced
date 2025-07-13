@@ -1,46 +1,81 @@
-# Cybersecurity Projects: Beginner to Advanced
+#  Cybersecurity Projects: Beginner to Advanced
 
-This repository contains a structured collection of cybersecurity projects ranging from beginner-level fundamentals to advanced techniques. Each project is organized in its own folder with a dedicated README, screenshots, and documentation to help others learn through practical implementation.
+This repository contains a structured collection of **70+ hands-on cybersecurity projects** organized by difficulty — from foundational tools to advanced red/blue/purple team operations. Every project is designed, executed, and documented in real environments, not simulated tutorials.
 
-## Project Levels
+---
 
-Projects are grouped by skill level:
+##  Project Levels
 
-- Beginner Projects: Focused on foundational cybersecurity skills and hands-on tools.
-- Intermediate Projects: Cover realistic scenarios, tool integration, and defensive/offensive security.
-- Advanced Projects: Include enterprise-grade setups, automation, threat detection, malware analysis, and red vs blue simulations.
+Projects are grouped into three progressive levels:
 
-## Project Structure
+- **Beginner Projects (1–25):**  
+  Learn core skills through practical tools and concepts — scanning, encryption, authentication, honeypots, Snort, DNS spoofing, etc.
+
+- **Intermediate Projects (26–50):**  
+  Focus on threat detection, malware sandboxing, steganography, custom firewalls, rootkits, AI for intrusion detection, and SCADA security.
+
+- **Advanced Projects (51–70):**  
+  Build enterprise-grade tools and infrastructure: ransomware detection, zero-trust models, SIEM dashboards, SOC automation, blockchain analysis, and red vs blue team simulations.
+
+---
+
+##  Project Structure
 
 Each project folder includes:
 
-- A `README.md` with step-by-step instructions and explanations.
-- Screenshots demonstrating each major step.
-- Configuration files, scripts, or source code where applicable.
-- Notes and learning outcomes.
+- `README.md` — Step-by-step walkthroughs and tool usage
+- `screenshots/` — Visual evidence of execution
+- `logs/`, `tools/`, `scans/` — Collected data and artifacts
+- `findings.md` — Key results, notes, and lessons learned
+- `setup.sh` (if applicable) — Environment initialization scripts
 
-## Completed Projects
+All folders follow a consistent format for reproducibility and portfolio value.
 
-- `Internal-Recon/`: Network scanning, service detection, and firewall testing using Nmap.
-- `Basic-Keylogger-(Linux)/`: Python keylogger using pynput inside a safe virtual environment.
+---
 
-More projects are being added continuously.
+## Example Completed Projects
 
-## Requirements
+- `Internal-Recon/` — Network mapping and firewall analysis using Nmap  
+- `Basic-Keylogger-(Linux)/` — Python keylogger using `pynput` in a safe VM  
+- `Malware-Sandbox/` — Windows/Linux VM setup with monitoring tools  
+- `Stego-Detection-Project/` — Covert data extraction using steghide, binwalk, exiftool  
+- `SCADA-Security-Project/` — Modbus network simulation and vulnerability scanning  
+- `Secure-Containers/` — Hardened Docker stack with Trivy CVE scans  
+- `Firewall-Custom-iptables/` — Custom Linux firewall setup with logging
 
-- Virtualization software (e.g., VMware, VirtualBox, Proxmox)
-- Linux (Kali, Ubuntu) and Windows virtual machines
-- Basic networking setup (NAT or bridged)
-- Familiarity with command line and scripting (Bash, PowerShell, Python)
+More projects are added continuously.
 
-## Disclaimer
+---
 
-All projects in this repository are for educational and ethical research purposes only. Do not use these tools or techniques on networks or systems you do not own or have explicit permission to test.
+##  Requirements
 
-## License
+- Virtualization tools (Proxmox, VMware, or VirtualBox)  
+- Linux (Kali, Ubuntu, Fedora) and Windows (10/11, Server) VMs  
+- Networking: VLANs, NAT, or bridged mode  
+- Basic scripting: Bash, PowerShell, Python  
+- Git and terminal usage
 
-This repository is open for learning, personal use, and ethical practice. Contact the author if you intend to use parts of it for commercial or instructional content.
+---
 
-## Author
+##  Disclaimer
 
-Created and maintained by [mchyasn](https://github.com/mchyasn)
+All projects in this repository are for **educational and ethical research purposes only**. Do **not** use these tools or techniques on systems or networks without **explicit permission**.
+
+---
+
+##  License
+
+This repository is open for learning, personal use, and ethical practice. For commercial or instructional use, please contact the author.
+
+---
+
+##  Author
+
+Built and maintained by **[@mchyasn](https://github.com/mchyasn)**  
+Cybersecurity Home Lab | Red & Blue Team Projects | Ethical Hacker
+
+---
+
+> 💡 Want to learn by doing?  
+> Explore real attacks. Detect them. Log them. Defend like a pro.
+
